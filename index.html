@@ -4,66 +4,459 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#000000" />
     <link
       rel="icon"
       width="40px"
       href="https://media3.giphy.com/media/ifBEhUvCPQWxYxlCsl/giphy.gif?cid=6c09b952ccf3bbb9e8eb38359506c48dad56e59850bd35c6&rid=giphy.gif&ct=s"
     />
     <title>
-      Wander Wisely with Cheap Hotels, Flights, Vacations &amp; Travel Deals
+      Wander Wisely with Cheap Hotels, Flights, Vacations &amp; Travel Deals | Travelocity
     </title>
-    <style>
-      .header {
-        background-color: #3f51b5;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        height: 90px;
-      }
-      .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 20px;
-        color: white;
-      }
-      .navbar > #more_travel {
-        margin-top: 20px;
-      }
-      .navbar > #rightbar {
-        display: flex;
-        width: 80%;
-        margin-top: 20px;
-        justify-content: flex-end;
-        color: white;
-        gap: 25px;
-        margin-right: 50px;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="Navbar.js"></script>
   </head>
   <body>
-    <div class="header">
-      <div class="navbar">
-        <a href="index.html">
-          <img
-            src="https://www.travelocity.com/_dms/header/logo.svg?locale=en_US&siteid=80001&2"
-            alt=""
-            style="margin-right: 2vh"
-          />
-        </a>
-        <div id="more_travel" variant="contained">More Travel</div>
-        <div id="rightbar">
-          <div>Español</div>
-          <div>List your property</div>
-          <div>Support</div>
-          <div>Trips</div>
-          <div>
-            <div id="sign_in">Sign in</div>
+    <!-- -------------------------------- Navbar Starts ----------------------------------- -->
+    <nav class="navbar">
+      <a href="index.html" class="navLogo">
+        <img src="https://i.ibb.co/c8Jzh7C/logo.png" />
+      </a>
+      <div class="navDropdown">
+        <button onclick="moreTravel()" class="navDropbtn">More Travel</button>
+        <div id="myDropdown" class="navDropdown_cont">
+          <a href="packages.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-house-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+              ></path>
+            </svg>
+
+            Packages
+          </a>
+          <a href="hotels.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-house-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+              ></path>
+            </svg>
+            Hotels
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-house-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+              ></path>
+            </svg>
+            Cars
+          </a>
+          <a href="flightspage.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-house-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+              ></path>
+            </svg>
+            Flights
+          </a>
+          <a href="cruiser.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-house-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+              ></path>
+            </svg>
+            Cruises
+          </a>
+          <a href="thingstodo.html">Things to do</a>
+          <a href="#">Tips for Me</a>
+          <a href="#">Discover</a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-house-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+              ></path>
+            </svg>
+            Vaction Rentals
+          </a>
+          <a href="#">Travel Deals</a>
+          <a href="#">Get Inspired</a>
+        </div>
+      </div>
+      <div class="rightNav">
+        <a
+          href="https://www.travelocity.com/es/Actividades?langid=2058&amp;tpid=80001&amp;eapid=0"
+          target="_blank"
+          class="navA1"
+          >Espanol</a
+        >
+        <a href="#" class="navA2">List Your property</a>
+        <a href="#" class="navA3">Support</a>
+        <a href="#" class="navA4">Trips</a>
+
+        <div class="Signin">
+          <button onclick="myFunction()" class="signinBtn">Sign In</button>
+          <div id="mySignin" class="Signin-content">
+            <h4 class="h4_margin">
+              Members can access discounts and special features
+            </h4>
+            <a href="signin.html" class="go_to_signin" id="color_white"
+              >Sign in</a
+            >
+            <a
+              href="create_account.html"
+              class="go_to_create_account"
+              id="color_blue"
+              >Create a free account</a
+            ><br />
+            <a href="#" class="a_margin">List of favorites</a>
+            <hr />
+            <a href="#" class="a_margin">Feedback</a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div id="simple_container"></div>
-    </div>
+    </nav>
+    <!-- ------------------------------------ Navbar End ---------------------------------------->
+
+    <!-- ---------------------------------- Search Bar Starts ----------------------------------->
+    <section>
+      <div class="SearchBar">
+        <div class="SearchFront">
+          <div class="sub_cont">
+            <button class="searchHotel" onclick="show('showHotel');">
+             Hotel
+            </button>
+
+            <button class="seachFlight" onclick="show('showFlight');">
+              Flight
+            </button>
+
+            <button class="searchCar" onclick="show('showCar');">
+              Car
+            </button>
+
+            <button class="searchPackages" onclick="show('showPackage');">
+              Package
+            </button>
+
+            <button class="searchToDo" onclick="show('showToDo');">
+              To Do
+            </button>
+
+            <button class="searchCruise" onclick="show('showCruise');">
+              Cruise
+            </button>
+          </div>
+          <div class="hr"></div>
+          <div id="showHotel">
+            <!-------------------------     Onclick Card Open Start     ----------------------->
+
+            <button onclick="Open_Btn1_Card1()" class="btn1">Going To</button>
+            <div id="openCard" class="btncontent">
+              <h4 class="h4_margin" style="text-align: center">
+                Search City Name
+              </h4>
+              <input
+                type="search"
+                class="card1_search"
+                placeholder="Where are you going?"
+              />
+              <br /><br /><br /><br /><br /><br />
+              <a href="#" class="go_to_signin" id="color_white">Search</a>
+              <br />
+            </div>
+            <!-------------------------     Onclick Card Open End        ----------------------->
+
+            <input
+              class="btn2"
+              placeholder="Check In"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+            <input
+              class="btn3"
+              placeholder="Check Out"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+            <!-------------------------     Onclick Card Open Start     ----------------------->
+
+            <button onclick="Open_Btn4_Card2()" class="btn4">Travelers</button>
+            <div id="openCard2" class="btn4_content btn4_Show">
+              <h4 class="h4_margin" style="color: rgb(51, 51, 51)">
+                Travelers
+              </h4>
+              <hr />
+              <h4 class="h4_margin">Room 1</h4>
+              <h4 class="h4_margin" style="color: grey; float: left">Adults</h4>
+              <div class="h4_magin" style="float: right; margin-right: 10px">
+                <input type="button" value="-" onclick="minus()" />
+                <input
+                  style="width: 20px"
+                  type="text"
+                  size="25"
+                  value="1"
+                  id="count"
+                />
+                <input type="button" value="+" onclick="plus()" />
+              </div>
+
+              <br /><br /><br /><br />
+              <a href="#" class="go_to_signin" id="color_white">Done</a>
+              <br />
+            </div>
+
+            <!-------------------------     Onclick Card Open End        ----------------------->
+
+            <br />
+            <input
+              class="checkbox1"
+              type="checkbox"
+              id="myCheck"
+              onclick="checkbox_CreateElement()"
+            />
+            <label for="checkbox1">Add a flight</label>
+
+            <input type="checkbox" class="checkbox2" /
+            <label for="checkbox1">Add a car</label>
+            <button class="btn1" id="text" style="display: none">
+              Leaving From
+            </button>
+
+            <button class="search">Search</button><br />
+          </div>
+
+          <div id="showFlight" style="display: none">
+            <button class="btn1">Leaving From</button>
+
+            <input
+              class="btn2"
+              placeholder="Departing"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+            <input
+              class="btn3"
+              placeholder="Returning"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+            <button class="btn4">Going To</button>
+            <br>
+            <input type="checkbox" class="checkbox2" />
+            <label for="checkbox1">Add a place to Stay</label>
+            <input type="checkbox" class="checkbox2" />
+            <label for="checkbox1">Add a car</label>
+
+            <button class="search">Search</button><br />
+          </div>
+
+          <div id="showCar" style="display: none">
+            <button class="btn1">Going To</button>
+            <input
+              class="btn2"
+              placeholder="Check In"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+            <input
+              class="btn3"
+              placeholder="Check Out"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+            <button class="btn4">travelers</button>
+            <br>
+            <input
+              class="checkbox1"
+              type="checkbox"
+              id="myCheck"
+              onclick="checkbox_CreateElement()"
+            />
+            
+            <label for="checkbox1">Add a flight</label>
+
+            <input type="checkbox" class="checkbox2" />
+            <label for="checkbox1">Add a car</label>
+            <button class="btn1" id="text" style="display: none">
+              Leaving From
+            </button>
+
+            <button class="search">Search</button><br />
+          </div>
+
+          <div id="showPackage" style="display: none">
+            <button class="btn1">Leaving From</button>
+            <input
+              class="btn2"
+              placeholder="Departing"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+            <input
+              class="btn3"
+              placeholder="Returning"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+            <button class="btn4">Going To</button>
+            <br>
+            <input type="checkbox" class="checkbox2" />
+            <label for="checkbox1"
+              >I only need accommodations for part of my trip</label>
+
+            <button class="search">Search</button><br />
+          </div>
+          <div id="showToDo" style="display: none">
+            <button class="btn1">Things To Go</button>
+            <input
+              class="btn2"
+              placeholder="From"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+            <input
+              class="btn3"
+              placeholder="To"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+
+            <input
+              class="checkbox1"
+              type="checkbox"
+              id="myCheck"
+              onclick="checkbox_CreateElement()"
+            />
+            <label for="checkbox1">Add a flight</label>
+
+            <input type="checkbox" class="checkbox2" />
+            <label for="checkbox1">Add a car</label>
+            <button class="btn1" id="text" style="display: none">
+              Leaving From
+            </button>
+
+            <button class="search">Search</button><br />
+          </div>
+          <div id="showCruise" style="display: none">
+            <button class="btn1">Going To</button>
+            <input
+              class="btn2"
+              placeholder="Check In"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+            <input
+              class="btn3"
+              placeholder="Check Out"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+            />
+            <button class="btn4">travelers</button>
+            <br>
+            <input
+              class="checkbox1"
+              type="checkbox"
+              id="myCheck"
+              onclick="checkbox_CreateElement()"
+            />
+            <label for="checkbox1">Add a flight</label>
+
+            <input type="checkbox" class="checkbox2" />
+            <label for="checkbox1">Add a car</label>
+            <button class="btn1" id="text" style="display: none">
+              Leaving From
+            </button>
+
+            <button class="search">Search</button><br />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------ Searchbar End ------------------------------------- -->
   </body>
 </html>

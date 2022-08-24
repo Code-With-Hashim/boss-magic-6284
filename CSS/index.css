@@ -378,33 +378,33 @@ font-size: 20px;
     font-size: 30px;
 }
   /* From here the Code for Div Below Navbar made By Prasad is Ended */
- /* From Here the Code for Id=Pooransdiv1 is Started */
-#pooransDiv1{
+ /* From Here the Code for Id=Gauravdiv1 is Started */
+#GauravDiv1{
     width: 99%;
     display: flex;
     margin: 4% 0% 4% 0%;
 }
 
-#pooransDiv1 > div{
+#GauravDiv1 > div{
     flex-basis: 30%;
     background-color: rgba(255,255,255,255);
     border-radius: 20px;
     padding-bottom: 2%;
 }
-#pooransDiv1Main1{
+#GauravDiv1Main1{
     margin-left: 3%;
 }
-#pooransDiv1 >#pooransDiv1Main2,#pooransDiv1Main3{
+#GauravDiv1 >#GauravDiv1Main2,#GauravDiv1Main3{
     margin-left: 2%;
 }
-.pooransDiv1img{
+.GauravDiv1img{
     width: 100%;
     height: 80%;
     border-top-right-radius:20px;
 border-top-left-radius: 20px;
 
 }
-.pooransDiv1para{
+.GauravDiv1para{
     color: #505c66;
     font-family: "Segoe UI","Helvetica Neue", Arial, sans-serif;
     font-size: 1vw;
@@ -412,52 +412,52 @@ border-top-left-radius: 20px;
     margin: 2% 0% 0% 0%;
 }
 
-/* From Here the Code for Id=Pooransdiv1 is Ending */
-/* From Here the Code for Id=Pooransdiv2 is Started */
-#pooransDiv2h2{
+/* From Here the Code for Id=Gauravdiv1 is Ending */
+/* From Here the Code for Id=Gauravdiv2 is Started */
+#GauravDiv2h2{
   margin: 0% 0% 0% 3%;
   font-size: 2.5vw;  
   font-weight: bolder;
   color: #505c66;
 }
-#pooransDiv2{
+#GauravDiv2{
     width: 94%;
     display: flex;
     margin: 1% 3% 0% 3%;
     height: 300px;
 }
-#pooransDiv2Main1{
+#GauravDiv2Main1{
     flex-basis: 69%;
     background-color: rgba(255,255,255,255);
     border-radius: 20px;
 }
-#pooransDiv2main1img{
+#GauravDiv2main1img{
     height: 75%;
     width: 100%;
     border-top-right-radius:20px;
     border-top-left-radius: 20px;
 }
-#pooransDiv2Main1H3{
+#GauravDiv2Main1H3{
     margin: 1% 0% 0% 2%;
     color: #505c66;
 }
-#pooransDiv2Main1Para{
+#GauravDiv2Main1Para{
     margin: 1% 0% 0% 2%;
     color: #505c66;
 }
-#pooransDiv2Main2{
+#GauravDiv2Main2{
     flex-basis: 30%;
     margin-left: 1%;
     display: flex;
     flex-direction: column;
 }
-#pooransDiv2Main2Div1{
+#GauravDiv2Main2Div1{
     flex-basis: 48%;
     background-color: rgba(255,255,255,255);
     border-radius: 10px;
     display: flex;
 }
-#pooransDiv2Main2Div2{
+#GauravDiv2Main2Div2{
     margin-top: 4%;
     flex-basis: 48%;
     background-color: rgba(255,255,255,255);
@@ -489,23 +489,23 @@ border-top-left-radius: 20px;
     color: #505c66;
 }
 
-/* From Here the Code for Id=Pooransdiv2 is Ending */
-/* From Here the Code for Id=Pooransdiv3 is Started */
-#pooransDiv3h2{
+/* From Here the Code for Id=Gauravdiv2 is Ending */
+/* From Here the Code for Id=Gauravdiv3 is Started */
+#GauravDiv3h2{
     margin: 6% 0% 0% 3%;
     font-size: 2.5vw;  
     font-weight: bolder;
     color: #505c66;
   }
-#pooransDiv3{
+#GauravDiv3{
     width: 94%;
     margin: 1% 3% 0% 3%;
     height: 250px;
-    background-image: url("https://i.postimg.cc/y8qjSsG4/poorans-Div3-1.jpg");
+    background-image: url("https://i.postimg.cc/y8qjSsG4/Gaurav-Div3-1.jpg");
     background-size: cover;
     border-radius: 10px;
 }
-#pooransDiv3H2{
+#GauravDiv3H2{
 color: #fff;
 text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
   padding: 15% 0% 0% 2%;
@@ -513,14 +513,14 @@ text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
   font-weight: bolder;
   z-index: 100;
 }
-#pooransDiv3para{
+#GauravDiv3para{
     color: #fff;
     text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
     padding: 0% 0% 0% 2%;
     margin: -1% 0% 0% 0%;
     font-weight: bolder;
 }
-/* From Here the Code for Id=Pooransdiv3 is Ending */
+/* From Here the Code for Id=Gauravdiv3 is Ending */
 /* From Here the Code for Id=corona notification is Started */
 
 #coronaNotification{
@@ -553,76 +553,76 @@ text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
 }
 /* From Here the Code for Id=coronaNotification is Ending */
 /* From Here the Code for Id= is Started */
-#pooransDiv5h2{
+#GauravDiv5h2{
     margin: 4% 0% 0% 3%;
     font-size: 2.5vw;  
     font-weight: bolder;
     color: #505c66;
 }
-#pooransDiv5{
+#GauravDiv5{
     width: 94%;
     margin: 1% 3% 0% 3%;
     height: 200px;
     display: flex;
 }
-#pooransDiv5Div1{
+#GauravDiv5Div1{
     flex-basis: 32%;
-    background-image: url("https://i.postimg.cc/5yhBvSnq/poorans-Div5-Div1.png");
+    background-image: url("https://i.postimg.cc/5yhBvSnq/Gaurav-Div5-Div1.png");
     background-size: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-#pooransDiv5Div2{
+#GauravDiv5Div2{
     flex-basis: 32%;
-    background-image: url("https://i.postimg.cc/ry3CvqM0/poorans-Div5-Div2.png");
-    background-size: cover;
-    margin-left: 2%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-#pooransDiv5Div3{
-    flex-basis: 32%;
-    background-image: url("https://i.postimg.cc/XJDcNb5P/poorans-Div5-Div3.jpg");
+    background-image: url("https://i.postimg.cc/ry3CvqM0/Gaurav-Div5-Div2.png");
     background-size: cover;
     margin-left: 2%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-.pooransDiv5h3{
+#GauravDiv5Div3{
+    flex-basis: 32%;
+    background-image: url("https://i.postimg.cc/XJDcNb5P/Gaurav-Div5-Div3.jpg");
+    background-size: cover;
+    margin-left: 2%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.GauravDiv5h3{
     color: #fff;
     font-size: 1.5vw;
     text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
     margin: 45% 0% 0% 4%;
     font-weight: bolder;
 }
-/*From Here the Code for Id=pooransDiv5 is Ending */
-/* From Here the Code for Id=pooransDiv56 is Started */
-#pooransDiv6{
+/*From Here the Code for Id=GauravDiv5 is Ending */
+/* From Here the Code for Id=GauravDiv56 is Started */
+#GauravDiv6{
     width: 94%;
     margin: 8% 3% 0% 3%;
     height: 290px;
     display: flex;
     border-radius: 20px;
 }
-#pooransDiv6Main1{
+#GauravDiv6Main1{
     flex-basis: 35%;
-    background-image: url("https://i.postimg.cc/8cJdj0Bz/poorans-Div6-Main1img.jpg");
+    background-image: url("https://i.postimg.cc/8cJdj0Bz/pooran-Div6-Main1img.jpg");
     background-size: cover;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-#pooransDiv6Main2{
+#GauravDiv6Main2{
     flex-basis: 65%;
     display: flex;
     background-color: rgba(255,255,255,255);
     border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 }
-#pooransDiv6Main2Div1{
+#GauravDiv6Main2Div1{
  flex-basis: 75%;
 
 }
-#pooransDiv6Main2Div2{
+#GauravDiv6Main2Div2{
 flex-basis: 25%;
 }
 #getlinkh2{
@@ -700,12 +700,12 @@ flex-basis: 25%;
     height: 50%;
     margin: 8% 0% 0% 10%;
 }
-#pooransDiv6Main2Div2 > h4{
+#GauravDiv6Main2Div2 > h4{
     margin: -5% 0% 0% 20%;
     font-size: 1.2vw;
     font-weight: bold;
 }
-/* From Here the Code for Id=pooransDiv56 is Ended */
+/* From Here the Code for Id=GauravDiv56 is Ended */
 
 
  
@@ -850,43 +850,43 @@ flex-basis: 25%;
         margin: auto;
     }
 
-   #pooransDiv1{
+   #GauravDiv1{
        flex-direction: column;
    }
-   #pooransDiv1 > div{
+   #GauravDiv1 > div{
     margin-top: 20px;
    }
-   .pooransDiv1img{
+   .GauravDiv1img{
        height: 150px;
    }
-   .pooransDiv1para{
+   .GauravDiv1para{
        font-size: 2vw;
    }
-   #pooransDiv2{
+   #GauravDiv2{
        flex-direction: column;
        clear: both;
        height: 600px;
    }
-   #pooransDiv2main1img{
+   #GauravDiv2main1img{
        height: 80%;
    }
-   #pooransDiv2h2 {
+   #GauravDiv2h2 {
     margin: 0% 0% -2% 3%;
     font-size: 3.5vw;
    }
-   #pooransDiv2 > div{
+   #GauravDiv2 > div{
        margin-top: 20px;
    }
-   #pooransDiv2Main1H3{
+   #GauravDiv2Main1H3{
        font-size: 2.5vw;
    }
-   #pooransDiv2Main1Para{
+   #GauravDiv2Main1Para{
        font-size: 2vw;
    }
-   #pooransDiv2Main2Div1{
+   #GauravDiv2Main2Div1{
        height: 120px;
    }
-   #pooransDiv2Main2Div2{
+   #GauravDiv2Main2Div2{
     height: 120px;
    }
    .smallDiv2 > h3{
@@ -897,58 +897,58 @@ flex-basis: 25%;
     font-size: 2.5vw;
     margin: 1% 0% 0% 5%;
    }
-   #pooransDiv3{
+   #GauravDiv3{
        height: 120px;
    }
-   #pooransDiv3h2{
+   #GauravDiv3h2{
        margin-top: 10%;
    }
-   #pooransDiv3H2{
+   #GauravDiv3H2{
     padding: 6% 0% 0% 2%;
     font-size: 5vw;
    }
-   #pooransDiv3para{
+   #GauravDiv3para{
        font-size: 3.5vw;
        margin: -3% 0% 0% 0%;
    }
-   #pooransDiv3h2{
+   #GauravDiv3h2{
        font-size: 4vw;
    }
-   #pooransDiv5h2{
+   #GauravDiv5h2{
     font-size: 3.5vw;
    }
-   #pooransDiv5{
+   #GauravDiv5{
        flex-direction: column;
        height: 360px;
    }
-   #pooransDiv5Div1{
+   #GauravDiv5Div1{
        height: 120px;
        margin-bottom: 3%;
    }
-   #pooransDiv5Div2{
+   #GauravDiv5Div2{
     height: 120px;
     margin-left: 0%;
     margin-bottom: 3%;
    }
-   #pooransDiv5Div3{
+   #GauravDiv5Div3{
     height: 120px;
     margin-left: 0%;
    }
-   .pooransDiv5h3{
+   .GauravDiv5h3{
     margin: 13% 0% 0% 4%;
     font-size: 3.5vw;
    }
-   #pooransDiv6{
+   #GauravDiv6{
       flex-direction: column;
       height: 400px;
    }
-   #pooransDiv6Main1{
+   #GauravDiv6Main1{
        flex-basis: 60%;
-       background-image: url("./img/pooransDiv6Main1img.jpg");
+       background-image: url("./img/GauravDiv6Main1img.jpg");
        background-size: cover;
        margin-bottom: 3%;
    }
-   #pooransDiv6Main2{
+   #GauravDiv6Main2{
        flex-basis: 60%;
    }
    #country{
@@ -970,7 +970,7 @@ flex-basis: 25%;
    #getlinkofwebsite{
        height: 25%;
    }
-   #pooransDiv6Main2Div2 > h4{
+   #GauravDiv6Main2Div2 > h4{
        font-size: 2vw;
        margin: -5% 0% 0% 17%;
    }
@@ -1264,69 +1264,7 @@ flex-basis: 25%;
     margin: 0% 0% 0% 2%;
     font-size: 2.3vw;
   }
-  /* Css for Coronanotification Ends here */
-  /* From Here the Code for Id=pooransnewDiv is Starting */
-#pooransnewDivh2{
-    margin: 3% 0% 0% 3%;
-    font-size: 2.5vw;  
-    font-weight: bolder;
-    color: #505c66;
-  }
-  #pooransnewDiv{
-    width: 94%;
-    margin: 1% 3% 0% 3%;
-    display: flex;
-    height: 180px;
-  }
-  #pooransnewDiv > div{
-    border-radius: 10px;
-  }
-  #pooransnewDiv1{
-    flex-basis: 15%;
-    background-image: url("https://i.ibb.co/H2zmyTj/slideshowimg1.webp");
-    background-size: cover;
-  }
-  #pooransnewDiv2{
-    flex-basis: 15%;
-    margin-left: 2%;
-    background-image: url("https://i.ibb.co/pxR9qv8/slideshowimg2.webp");
-    background-size: cover;
-  }
-  #pooransnewDiv3{
-    flex-basis: 15%;
-    margin-left: 2%;
-    background-image: url("https://i.ibb.co/jyJbgK1/slideshowimg3.jpg");
-    background-size: cover;
-  }
-  #pooransnewDiv4{
-    flex-basis: 15%;
-    margin-left: 2%;
-    background-image: url("https://i.ibb.co/hgrhcg7/slideshowimg4.webp");
-    background-size: cover;
-  }
-  #pooransnewDiv5{
-    flex-basis: 15%;
-    margin-left: 2%;
-    background-image: url("https://i.ibb.co/NrQN3VY/slideshowimg5.webp");
-    background-size: cover;
-  }
-  #pooransnewDiv6{
-    flex-basis: 15%;
-    margin-left: 2%;
-    background-image: url("https://i.ibb.co/mDRVmsF/slideshowimg6.webp");
-    background-size: cover;
-  }
-  .h3newDiv{
-    color: white;
-    text-align: center;
-    text-shadow: 0 0px 2px rgb(17 21 26 / 100%);
-    background-color: rgba(17,21,26,0.5);
-    font-size: 1.5vw;
-    margin: 0%;
-    padding: 45% 0% 46% 0%;
-    border-radius: 10px;
-  }
   
-  /* From Here the Code for Id=pooransnewDiv is Ending */
+  
   
 

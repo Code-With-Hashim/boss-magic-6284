@@ -34,9 +34,6 @@ function myFunction() {
     }
 }
 
-//   The Code for Navbar Ends Here
-  
-  // This functions are for Div Below Navbar it starts here
   function show(elementId) {
       document.getElementById("showHotel").style.display = "none";
       document.getElementById("showFlight").style.display = "none";
@@ -59,8 +56,6 @@ function myFunction() {
         }
     }
     
-    // This functions are for Div Below Navbar it ends here
-    //   To Get the Data of the PooransDiv6 it starts here
       var pbtn = document.getElementById("getlinkbtnmain")
       function getappbtnclick(){ 
           let num = document.getElementById("phonenumber").value
@@ -81,4 +76,3 @@ function myFunction() {
       }
       
       getcountrycode();
-      //   To Get the Data of the PooransDiv6 it ends here

@@ -1,0 +1,113 @@
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week
+$ git clone 4.githttps://github.com/Code-With-Hashim/boss-magic-628
+Cloning into 'boss-magic-628'...
+git: 'remote-4.githttps' is not a git command. See 'git 
+--help'.
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week
+$ git clone https://github.com/Code-With-Hashim/boss-magic-6284.git
+Cloning into 'boss-magic-6284'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week
+$ cd f:/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (main)
+$ git branch fw20_0116_day-2
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (main)
+$ git checkout fw20_0116_day-2
+Switched to branch 'fw20_0116_day-2'
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git pull origin fw20_0116_day-2
+fatal: couldn't find remote ref fw20_0116_day-2
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git remote -v
+origin  https://github.com/Code-With-Hashim/boss-magic-6284.git (fetch)
+origin  https://github.com/Code-With-Hashim/boss-magic-6284.git (push) 
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git fetch origin
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 0), reused 6 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), 1.98 KiB | 58.00 KiB/s, done.
+From https://github.com/Code-With-Hashim/boss-magic-6284
+ * [new branch]      fw19_0411_Day-2 -> origin/fw19_0411_Day-2
+ * [new branch]      fw20_1112_day-2 -> origin/fw20_1112_day-2
+   04d9fcb..eba1763  main            -> origin/main
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git fetch origin fw20_0116_day-2
+fatal: couldn't find remote ref fw20_0116_day-2
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git push origin fw20_0116_day-2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'fw20_0116_day-2' on GitHub by visiting:
+remote:      https://github.com/Code-With-Hashim/boss-magic-6284/pull/new/fw20_0116_day-2
+remote:
+To https://github.com/Code-With-Hashim/boss-magic-6284.git
+ * [new branch]      fw20_0116_day-2 -> fw20_0116_day-2
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git pull origin fw20_0116_day-2
+From https://github.com/Code-With-Hashim/boss-magic-6284
+ * branch            fw20_0116_day-2 -> FETCH_HEAD
+Already up to date.
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (main)
+$ git pull origin main
+From https://github.com/Code-With-Hashim/boss-magic-6284
+ * branch            main       -> FETCH_HEAD
+Updating 04d9fcb..eba1763
+Fast-forward
+Switched to branch 'fw20_0116_day-2'                    +++++++++++++++++++++++
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)                                                    ment/JS-201-Construct-Week/boss-magic-6284 (main)
+$ git pull origin main
+From https://github.com/Code-With-Hashim/boss-magic-6284
+
+ * branch            main       -> FETCH_HEAD           ment/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+Updating 04d9fcb..eba1763
+Fast-forward
+ index.html | 69 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 69 insertions(+)
+ create mode 100644 index.html                          +++++++++++++++++++++++
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)                                                    ment/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ mkdir list-your-property
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ cd f:/Masai-School/Web-Development/JS-201-Construct-Week/list-your-property
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/list-your-property
+$ mkdir styles
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/list-your-property
+$ mkdir scripts
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/list-your-property
+$ mkdir images
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/list-your-property
+$ touch listpage.html
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-

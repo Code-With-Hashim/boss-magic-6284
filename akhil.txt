@@ -1,0 +1,3 @@
+name: akhil yadlapalli
+code: fw20_1112
+day: 2

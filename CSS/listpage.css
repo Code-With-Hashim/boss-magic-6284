@@ -287,27 +287,108 @@ body {
 }
 /** section-6  End*/
 
-
 /** section-7  Start*/
-.section-7{
-    background-color: rgb(243, 243, 243);
-    padding: 2rem;
+.section-7 {
+  background-color: rgb(243, 243, 243);
+  padding: 2rem;
 }
 
-.section-7>a>button{
-    background-color: rgb(0, 0, 129);
-    width: 150px;
-    height: 50px;
-    border-radius: .2rem;
-    border: none;
-    color: white;
-    cursor: pointer;
+.section-7 > a > button {
+  background-color: rgb(0, 0, 129);
+  width: 150px;
+  height: 50px;
+  border-radius: 0.2rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.section-7 > a > button:hover {
+  width: 180px;
+  height: 60px;
+  transition: 0.2s ease-in-out;
 }
 
 /** section-6  End*/
 
-
 /** section-8  Start*/
+.section-8 {
+  background-color: blue;
+  color: white;
+  padding-bottom: 2rem;
+}
+.section-8 a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+}
+.section-8 > .footer-1 {
+  width: 80%;
 
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.section-8 > .footer-1 > div {
+  margin-top: 2rem;
+  width: 60%;
+  text-align: center;
+}
 
+.section-8 > .footer-1 a:hover {
+  color: rgb(255, 255, 255);
+
+  font-size: 1.5rem;
+  transition: 0.4s ease-in-out;
+}
+.section-8 > .footer-1 > .content-3 > p {
+  font-size: 0.8rem;
+}
+.section-8 > .footer-1 > .content-3 > a > img {
+  width: 80%;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding: 0.8rem;
+}
+
+@media (max-width: 950px) and (min-width: 10px) {
+  .section-8 > .footer-1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    gap: 0.1rem;
+    grid-template-columns: 1fr;
+  }
+  .section-8 > .footer-1 > div {
+    width: 90%;
+    margin: auto;
+    /* text-align: center; */
+  }
+  .section-8 > .footer-1 > .content-3 > a > img {
+    width: 60%;
+  }
+  .content-3 > p {
+    width: 100%;
+  }
+}
+
+.footer-2 > div {
+  font-size: 0.8rem;
+  
+  margin-bottom: 1rem;
+}
+.footer-2 > div:before {
+  display: block;
+  content: "";
+  border: 1px solid #5252ff;
+  width: 100%;
+}
+.footer-2 > div a:hover {
+  font-size: 1rem;
+  color: aliceblue;
+  transition: 0.2s ease-in-out;
+}
 /** section-8  End*/

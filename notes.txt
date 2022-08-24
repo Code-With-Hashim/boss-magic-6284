@@ -105,9 +105,122 @@ ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-We
 $ mkdir scripts
 
 ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/list-your-property
-$ mkdir images
-
-ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/list-your-property
 $ touch listpage.html
 
-ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/list-your-property
+$ touch notes.txt
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/list-your-property
+$ cd f:/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git pull origin main
+remote: Enumerating objects: 33, done.
+remote: Counting objects: 100% (33/33), done.
+remote: Compressing objects: 100% (26/26), done.
+Unpacking objects: 100% (30/30), 24.87 KiB | 180.00 KiB/s, done.
+remote: Total 30 (delta 4), reused 22 (delta 1), pack-reused 0
+From https://github.com/Code-With-Hashim/boss-magic-6284
+ * branch            main       -> FETCH_HEAD
+   eba1763..f66fa9c  main       -> origin/main
+Updating eba1763..f66fa9c
+Fast-forward
+ CSS/discover.css                |  364 +++++++++++
+ CSS/index.css                   | 1332 +++++++++++++++++++++++++++++++++++++++
+ CSS/navbar.css                  |  206 ++++++
+ Hotels.html                     |  469 ++++++++++++++
+ Scripts/Navbar.js               |   50 ++
+ Scripts/discover.js             |   63 ++
+ Scripts/index.js                |   84 +++
+ discover.html                   |  496 +++++++++++++++
+ dummy.txt                       |   12 +
+ index.html                      |  491 +++++++++++++--
+ slideshow images/imageobject.js |   19 +
+ 11 files changed, 3537 insertions(+), 49 deletions(-)
+ create mode 100644 CSS/discover.css
+ create mode 100644 CSS/index.css
+ create mode 100644 CSS/navbar.css
+ create mode 100644 Hotels.html
+ create mode 100644 Scripts/Navbar.js
+ create mode 100644 Scripts/discover.js
+ create mode 100644 Scripts/index.js
+ create mode 100644 discover.html
+ create mode 100644 slideshow images/imageobject.js
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git add .
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git commit -m"List Of Property Page"
+[fw20_0116_day-2 53a08c4] List Of Property Page
+ 6 files changed, 622 insertions(+)
+ create mode 100644 CSS/listpage.css
+ create mode 100644 Scripts/listpage.js
+ create mode 100644 images/Content-page-image-hero-LG2.jpg
+ create mode 100644 images/Home Hero-Vrbo-LG_v2.jpg
+ create mode 100644 listpage.html
+ create mode 100644 notes.txt
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git push origin fw20_0116_day-2
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (11/11), 299.45 KiB | 3.99 MiB/s, done.
+Total 11 (delta 1), reused 1 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Code-With-Hashim/boss-magic-6284.git
+   04d9fcb..53a08c4  fw20_0116_day-2 -> fw20_0116_day-2
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git add .
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git commit -m"added Div"
+[fw20_0116_day-2 59e2c7f] added Div
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git push origin fw20_0116-day-2
+error: src refspec fw20_0116-day-2 does not match any
+error: failed to push some refs to 'https://github.com/Code-With-Hashim/boss-magic-6284.git'
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git push origin fw20_0116_day-2
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 323 bytes | 161.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Code-With-Hashim/boss-magic-6284.git
+   53a08c4..59e2c7f  fw20_0116_day-2 -> fw20_0116_day-2
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ git pull origin main
+remote: Enumerating objects: 33, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 18 (delta 9), reused 10 (delta 5), pack-reused 0
+Unpacking objects: 100% (18/18), 5.18 KiB | 60.00 KiB/s, done.
+From https://github.com/Code-With-Hashim/boss-magic-6284
+ * branch            main       -> FETCH_HEAD
+   f66fa9c..a806009  main       -> origin/main
+Updating 59e2c7f..a806009
+Fast-forward
+ CSS/groups&meeting.css |  80 +++++++++
+ CSS/index.css          | 210 ++++++++--------------
+ Hotels.html            | 469 -------------------------------------------------
+ Scripts/index.js       |   8 +-
+ groups&meetings.html   |  49 ++++++
+ 5 files changed, 204 insertions(+), 612 deletions(-)
+ create mode 100644 CSS/groups&meeting.css
+ delete mode 100644 Hotels.html
+ create mode 100644 groups&meetings.html
+
+ACER@DESKTOP-21C6OM7 MINGW64 /f/Masai-School/Web-Development/JS-201-Construct-Week/boss-magic-6284 (fw20_0116_day-2)
+$ ^C
+
+ACER@DESKTOP

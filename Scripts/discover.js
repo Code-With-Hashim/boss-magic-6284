@@ -30,7 +30,7 @@ view.addEventListener('click', () => {
 })
 
 let hideandseek = document.getElementById('hideandseek')
-let hideandseek1 = document.getElementById('hideandsee1')
+let hideandseek1 = document.getElementById('hideandseek1')
 let hideandseek2 = document.getElementById('total-two-box')
 let hideandseek3 = document.getElementById('second-div1')
 
@@ -40,17 +40,17 @@ view1.addEventListener("click",()=> {
 
     if(flag) {
         hideandseek.style.display = ''
-        // hideandseek1.style.display = ''
-        // hideandseek2.style.display = ''
-        // hideandseek3.style.display = ''
-        // view.innerText = 'View Less'
+        hideandseek1.style.display = ''
+        hideandseek2.style.display = ''
+        hideandseek3.style.display = ''
+        view1.innerText = 'View Less'
         flag = false
     } else {
         hideandseek.style.display = 'none'
-        // hideandseek1.style.display = 'none'
-        // hideandseek2.style.display = 'none'
-        // hideandseek3.style.display = 'none'
-        // view.innerText = 'View More'
+        hideandseek1.style.display = 'none'
+        hideandseek2.style.display = 'none'
+        hideandseek3.style.display = 'none'
+        view1.innerText = 'View More'
         flag = true
     }
     console.log(flag)

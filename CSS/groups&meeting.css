@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color:#0a438b;
+    padding: 1%;
+}
+.navbar>img{
+    margin-left:13%;
+    margin-right: 5%;
+}
+.navbar>a{
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    flex: 1;
+    margin-left: 10%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#0059b7;
+}
+.first{
+    height: 450px;
+    width: 100%;
+    background-image: url('https://cdn.hotelplanner.com/Common/Images/Request/poolbg.jpg');
+}
+.first p{
+    color: white;
+    padding: 5% 5% 1% 7%;
+}
+.first h1{
+    color: white;
+    margin: 1% 35% 1% 7%;
+    font-size: 60px;
+}
+.first strong{
+    color: #57b3fe;
+    margin: 1% 20% 1% 7%;
+    font-size: 30px;
+}
+.second{
+    height: 400px;
+    width: 70%;
+    margin-left: 10%;
+}
+.second>h1{
+    color: #013660;
+    font-size: 50px;
+}
+
+.sef{
+    display: flex;
+}
+.ses{
+    display: flex;
+    width: 90%;
+    height: 150px;
+}
+#fi,#si,#thi{
+    margin-right: 2%;
+}
+#fi img{
+    width: 100%;
+    width: 100%;
+}
+#si img{
+    width: 100%;
+    width: 100%;
+}
+#thi img{
+    width: 100%;
+    width: 100%;
+}

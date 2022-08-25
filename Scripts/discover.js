@@ -25,8 +25,6 @@ view.addEventListener('click', () => {
         view.innerText = 'View More'
         flag = true
     }
-
-
 })
 
 let hideandseek = document.getElementById('hideandseek')
@@ -57,7 +55,65 @@ view1.addEventListener("click",()=> {
 
 })
 
+let option_button = document.getElementById('main-option')
+let option_navbar = document.getElementById('second-navbar')
+let option = true
+option_button.addEventListener('click',()=> {
+    
+    
 
+    if(option) {
+        option_navbar.style.display = 'block'
+        option = false
+    } else {
+        option_navbar.style.display = 'none'
+        option = true
+    }
+})
+// media query search bar
+let button = true
+let search1 = () => {
+    let search = document.getElementById('search')
+    let directory = document.getElementById('directory')
+    let search_input = document.getElementById('search-input1')
+    let search_button = document.getElementById('search-button1')
+
+   
+
+    if(button) {
+        search_input.style.display = 'block'
+        search_button.style.position = 'relative'
+        search_button.style.left = '0%'
+        directory.style.display = 'none'
+        search_button.style.display = 'width'
+        search_button.style.width = '6%'
+        button = false
+    } else {
+        search_input.style.display = 'none'
+        search_button.style.position = 'relative'
+        search_button.style.left = '94%'
+        directory.style.display = ''
+        search_button.style.width = '8%'
+        button = true
+    }
+   
+}
+
+let view3 = document.getElementById('view3')
+let display = document.getElementById('displayfnc')
+let flag3 = true 
+view3.addEventListener('click',()=> {
+
+    if(flag3) {
+        display.style.display = ''
+        flag3 = false
+        view3.innerText = 'View Less'
+    } else {
+        display.style.display = 'none'
+        flag3 = true
+        view3.innerText = 'View More'
+    }
+})
 
 
 

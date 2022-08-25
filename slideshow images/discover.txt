@@ -1,0 +1,45 @@
+Discover the Mountain West of the USA
+
+let mountain_west = [
+    {
+        img : https://a.travel-assets.com/findyours-php/viewfinder/images/res20/167000/167545-Las-Vegas-Nevada.jpg,
+        Title : Las Vegas
+        description : A surreal, neon-lit skyline dotted with world-renowned landmarks. A pyramid that shoots a white beam of light into the black space above. This is “America’s Playground.”
+    }
+    {
+        https://a.travel-assets.com/findyours-php/viewfinder/images/res20/21000/21457-City-Park.jpg,
+        Title : Denver
+        description : From bearded brewery enthusiasts to outdoorsman strapped to bicycles & 40-pound backpacks to local cuisine that’s an adventure all its own, this is the Mile-High City.
+    }
+    {
+        img : https://a.travel-assets.com/findyours-php/viewfinder/images/res20/344000/344181-Colorado-Springs.jpg
+        Title : Colorado Springs
+        description : Filled with Wild West saloons, incredible restaurants, and military history, this mountain city awaits trailblazers of all kinds.
+    }
+    {
+        img : https://a.travel-assets.com/findyours-php/viewfinder/images/res20/248000/248060-Jackson-Hole.jpg
+        Title : Jackson Hole
+        description : At the junction of secluded wilderness, epic mountain views, and epicurean luxury lies one of Wyoming’s top attractions.
+    }
+    {
+        img : https://a.travel-assets.com/findyours-php/viewfinder/images/res20/214000/214068-Reno.jpg
+        Title : Reno
+        description : An outdoor playground, casinos, and plenty of mining history. The “Biggest Little City in the World” is a gold mine for savvy Nevada visitors.
+    }
+    {
+        img : https://a.travel-assets.com/findyours-php/viewfinder/images/res20/147000/147427-Summit-County-Ski-Areas.jpg,
+        Title : Summit County
+        description : The meeting of landscapes provides a crossroads, so to speak, but here you can straddle the line—and the summit—for as many miles as you like.”
+    }
+     {
+        img : https://a.travel-assets.com/findyours-php/viewfinder/images/res20/80000/80048-Zion-National-Park-And-Vicinity.jpg
+        Title : Zion National Park
+        description : Mother Nature is dressed to impress, and yowza! From the towering cliffs to the delicate flowers peeking from a rock face, this place is nourishment for the soul.
+    }
+]
+
+
+
+
+
+

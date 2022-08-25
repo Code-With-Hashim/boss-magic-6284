@@ -1,11 +1,36 @@
 #navbar {
     display: flex;
-    background-color: rgb(43, 43, 169);
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px 10px 0px;
 
 }
+#main-navbar {
+    background-color:rgb(43, 43, 169);;
+}
+
+/* navbar media function  */
+#navbar .option{
+    width: 1.9%;
+    display: none;
+    margin-right: 10px;
+}
+#navbar div input[type='image'] {
+    width: 100%;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+}
+#second-navbar li {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    font-family: Roboto;
+    border-bottom: 1px solid white;
+}
+#second-navbar {
+    padding-bottom: 10px;
+}
+
 .logo {
     margin-left: 20px;
 }
@@ -47,6 +72,7 @@ li {
     display: flex;
     justify-content: center;
     margin-left: 10px;
+    z-index: 0;
 }
 button {
     border: 0px;
@@ -57,6 +83,7 @@ button {
     width: 30%;
     padding: 8px 2px 8px 5px;
     margin-right: 10px;
+    z-index: 0;
 }
 #search-bar input {
     width: 100%;
@@ -86,7 +113,7 @@ button>img {
     font-size: 5rem;
 }
 .slide-show {
-    width: 80%;
+    width: 90%;
     height: auto;
     margin: auto;
     position: relative;
@@ -103,12 +130,18 @@ button>img {
     position: absolute;
     top: 50%;
     left: 10px;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    opacity: 0.4;
 }
 #right-btn {
     width: 7%;
     position: absolute;
     top: 50%; 
-    right: 10px; 
+    right: 10px;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    opacity: 0.4; 
 }
 .text-content {
     width: 90%;
@@ -282,7 +315,7 @@ h2:hover {
 
  .one-box {
     display: flex;
-    width: 48%;
+    width: 49%;
     height: 400px;
     border: 1px solid aquamarine;
     
@@ -298,6 +331,181 @@ h2:hover {
     padding-right: 10px;
     color: gray;
  }
+ .media-album {
+    text-align: center;
+    font-family: Roboto;
+ }
+
+ .media-album>div {
+    border: 1px solid aquamarine;
+    margin-bottom: 20px;
+ }
+ .media-album div p {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+ }
+
+.media-album {
+    display: none;
+}
+
+/* media query search bar css */
+
+#search-bar1 {
+    display: flex;
+    display: none;
+    width: 100%;
+    padding: 8px 2px 8px 5px;
+    margin-right: 10px;
+    z-index: 0;
+}
+#search-bar1 input {
+    width: 100%;
+    box-sizing: content-box;
+    border: 1px solid gray;
+    margin-right: 10px;
+    border-radius: 10px;
+   
+}
+
+
+#search-bar1 button {
+    width: 7%;
+    position: relative;
+    left: 94%;
+}
+
+#footer {
+    width: 100%;
+    font-family: Roboto;
+    
+}
+
+.flex {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.flex>div:nth-child(1) p{
+    font-weight: bold;
+    color: rgb(68, 67, 67);
+    
+}
+.flex>div:nth-last-child(1) p {
+    margin-right: 1rem;
+}
+
+.flex>div:nth-last-child(1) {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    font-size: 14px;
+}
+a {
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+.flex>div>img {
+    width: 2.5%;
+}
+
+.flex>div p {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .discover-content h1 {
+        font-size: 4rem;
+    }
+    .slide-show {
+        width: 100%;
+    }
+    #left-btn,#right-btn {
+        display: none;
+
+    }
+    .text-content {
+        font-size: 1rem;
+    }
+    .album {
+        display: none;
+    }
+    .media-album {
+        display: block;
+    }
+    #header-nav {
+        display: none;
+    }
+    #navbar .option{
+        width: 4.5%;
+        display: block;
+        margin-right: 10px;
+    }
+    #search-bar1 {
+        display: flex;
+        width: 100%;
+        padding: 8px 2px 8px 5px;
+        margin-right: 10px;
+        z-index: 0;
+    }
+    #search-bar {
+        display: none;
+    }
+    #directory {
+        width: 30%;
+    }
+      #footer {
+        padding: 0rem;
+    }
+
+    .flex>div:nth-child(2)>a {
+        margin-bottom: -10px;
+    }
+    .flex {
+        margin-bottom: 10px;
+    }
+    
+
+  
+    
+}
+
+@media (min-width: 768px) and (max-width : 1100px) {
+    .album {
+        width: 100%;
+    }
+    
+    .album-box1 img {
+        width: 60%;
+    }
+    .album p {
+       padding-bottom: 4rem;
+       
+    }
+    .album-box p {
+        padding-bottom: 6rem;
+    }
+
+    
+}
+
 
 
 

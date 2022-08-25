@@ -14,35 +14,55 @@
 <body>
 
     <!-- the Navbar -->
-    <div id="navbar">
-        <div class="logo">
-            <img src="https://www.travelocity.com/_dms/header/logo.svg?locale=en_US" alt="traveloCity logo">
+    <div id="main-navbar">
+        <div id="navbar">
+            <div class="logo">
+                <img src="https://www.travelocity.com/_dms/header/logo.svg?locale=en_US" alt="traveloCity logo">
+            </div>
+            <div id="header-nav">
+                <ul class="first-level">
+                    <li class="active">
+                        <span class="list">Account
+                            <!-- pending for list -->
+                    </li>
+                    <li>
+                        <span class="list">Support</span>
+                    </li>
+                    <li>
+                        <span class="list">Term of Use</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="main-option" class="option">
+                <input type="image" src="https://cdn-icons-png.flaticon.com/512/1828/1828850.png">
+            </div>
         </div>
-        <div id="header-nav">
-            <ul class="first-level">
-                <li class="active">
-                    <span class="list">Account
-                        <!-- pending for list -->
-                </li>
+        <div style="display: none;" id="second-navbar">
+            <ul>
                 <li>
-                    <span class="list">Support</span>
+                    Account
                 </li>
-                <li>
-                    <span class="list">Term of Use</span>
-                </li>
+                <li>Support</li>
+                <li>Term of Use</li>
             </ul>
-
         </div>
     </div>
+
     <!-- search navbar -->
     <div id="search">
-        <div class="directory">
+        <div id="directory" class="directory">
             <p>Travelocity > </p>
             <p>Discover</p>
         </div>
         <div id="search-bar">
             <input style="display: none;" type="text" id="search-input">
             <button id="search-button" onclick="search()"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/1200px-Vector_search_icon.svg.png"
+                    alt="images"></button>
+        </div>
+        <div id="search-bar1">
+            <input style="display: none;" type="text" id="search-input1">
+            <button id="search-button1" onclick="search1()"><img
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/1200px-Vector_search_icon.svg.png"
                     alt="images"></button>
         </div>
@@ -202,9 +222,86 @@
             </div>
         </div>
     </div>
+    <!-- first box media queries thing -->
+
+    <div class="media-album">
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/471000/471589-New-York.jpg"
+                alt="New York">
+            <h2>
+                New York City
+            </h2>
+            <p>
+                New York City
+                Yellow taxis move through the streets, dwarfed by the most famous skyline in the world. Clear
+                your palate and take a bite out of the Big Apple.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/471000/471637-Washington-Dc.jpg"
+                alt="">
+            <h2>
+                Washington D.C.
+            </h2>
+            <p>Follow in the footsteps of world leaders and take in iconic monuments, world-class museums,
+                and Japanese cherry blossoms. Welcome to one of the most powerful cities in the world.</p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/21000/21214-Boston-Common.jpg"
+                alt="">
+            <h2>
+                Boston
+            </h2>
+            <p style="text-align: left;">The Heart of the Commonwealth. The Most Innovative Square Mile on
+                the Planet. The Renaissance City. This huge New England metropolitan area has them all.</p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/151000/151699-Lucy-The-Elephant.jpg"
+                alt="New York">
+            <h2>
+                Atlantic City
+            </h2>
+            <p>
+                Beachfront resorts, a bustling boardwalk, and the bells and whistles of your favorite gaming
+                pastimes are what this quintessential resort town is all about.
+            </p>
+        </div>
+
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/94000/94040-Pnc-Park.jpg"
+                alt="">
+            <h2>Pittsburgh</h2>
+            <p>
+                This town of steel has stripped away its industrial exterior and built itself into a diverse
+                and enjoyable hub. It might be Pennsylvania’s best-kept cultural secret.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/256000/256009-New-Jersey.jpg"
+                alt="">
+            <h2>New Jersey</h2>
+            <p>
+                While the Garden State has a reputation for being NYC’s suburbs, this state has a thriving
+                metropolis and culture all its own.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/94000/94102-Southampton.jpg"
+                alt="">
+            <h2>Long Island</h2>
+            <p>
+                This real-life setting of The Great Gatsby is home to the rich & often famous. But you don’t
+                need to be a Buchanan to enjoy this offshoot of The City That Never Sleeps.
+            </p>
+        </div>
+
+
+
+    </div>
+
 
     <!-- second div part -->
-    <div class="album" style="height: 800px">
+    <div class="album" style="height: auto">
         <p style="font-size: 1.2rem; text-align:center;" class='headline'>
             Discover the West Coast of the USA
         </p>
@@ -284,30 +381,37 @@
                             alt="">
                         <h2>Monterey</h2>
                         <p>
-                            Colorful literary characters, protected sea creatures, and more historic buildings than any other city west of Santa Fe. California’s first city has it all.
+                            Colorful literary characters, protected sea creatures, and more historic buildings than any
+                            other city west of Santa Fe. California’s first city has it all.
                         </p>
                     </div>
                 </div>
                 <div id="total-two-box">
                     <div class="one-box">
-                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/25000/25562-Palm-Springs.jpg" alt="">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/25000/25562-Palm-Springs.jpg"
+                            alt="">
                         <div class="inside-one-box">
                             <h2>
                                 Palm Springs
                             </h2>
                             <p>
-                                Nestled at the foot of the San Jacinto Mountains is a town with as many palm trees as residents, more golf courses than houses, and footprints from Sinatra, Martin, and Davis Jr.
+                                Nestled at the foot of the San Jacinto Mountains is a town with as many palm trees as
+                                residents, more golf courses than houses, and footprints from Sinatra, Martin, and Davis
+                                Jr.
                             </p>
                         </div>
                     </div>
                     <div class="one-box">
-                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/214000/214126-Lake-Tahoe.jpg" alt="">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/214000/214126-Lake-Tahoe.jpg"
+                            alt="">
                         <div class="inside-one-box">
-                            <h2 >
+                            <h2>
                                 Lake Tahoe
                             </h2>
                             <p>
-                                With the “Golden State” on one side, the “Silver State” on the other, and a beautiful body of water situated right in between the two, this High Sierra lake town is the epitome of a mountain paradise.
+                                With the “Golden State” on one side, the “Silver State” on the other, and a beautiful
+                                body of water situated right in between the two, this High Sierra lake town is the
+                                epitome of a mountain paradise.
                             </p>
                         </div>
                     </div>
@@ -323,7 +427,8 @@
                             <h2>
                                 Santa Barbara
                             </h2>
-                            <p style="text-align: left;">Tempting beaches, world-class wineries, and lush greenery are just some of the amenities boasted by this surprisingly small town.</p>
+                            <p style="text-align: left;">Tempting beaches, world-class wineries, and lush greenery are
+                                just some of the amenities boasted by this surprisingly small town.</p>
                         </div>
                     </div>
                     <div class="album-box">
@@ -333,11 +438,12 @@
                             San Luis Obispo
                         </h2>
                         <p>
-                            Bounded by California mountains, some of which march right to the Pacific, “SLO” (or “slow” as the locals lovingly call it) is the perfect place to kick back.
+                            Bounded by California mountains, some of which march right to the Pacific, “SLO” (or “slow”
+                            as the locals lovingly call it) is the perfect place to kick back.
                         </p>
                     </div>
                 </div>
-                   <!-- another box that div box part-5 -->
+                <!-- another box that div box part-5 -->
                 <div style="display: none;" id="hideandseek1" class="content-box">
                     <div class="album-box">
                         <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/241000/241516-Oakland.jpg"
@@ -346,7 +452,8 @@
                             Oakland
                         </h2>
                         <p>
-                            Secret staircases, telephone gnomes, and off-the-beaten path eateries make this East Bay city a worthy getaway
+                            Secret staircases, telephone gnomes, and off-the-beaten path eateries make this East Bay
+                            city a worthy getaway
                         </p>
                     </div>
                     <div class="album-box1">
@@ -357,7 +464,8 @@
                                 Napa Valley
                             </h2>
                             <p>
-                                Vines and orchards stretch as far as the eye can see, interrupted only by gourmet restaurants, tasting rooms, and hotels catering to wine-lovers everywhere.
+                                Vines and orchards stretch as far as the eye can see, interrupted only by gourmet
+                                restaurants, tasting rooms, and hotels catering to wine-lovers everywhere.
                             </p>
                         </div>
                     </div>
@@ -366,24 +474,28 @@
                 <!-- two boxes part -->
                 <div style="display: none;" id="total-two-box">
                     <div class="one-box">
-                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/170000/170322-Lincoln-City.jpg" alt="">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/170000/170322-Lincoln-City.jpg"
+                            alt="">
                         <div class="inside-one-box">
                             <h2>
                                 Central Oregon Coast
                             </h2>
                             <p>
-                                This misty, rugged coastline will put on a show for you. Mother Nature is ready to show you her best side!
+                                This misty, rugged coastline will put on a show for you. Mother Nature is ready to show
+                                you her best side!
                             </p>
                         </div>
                     </div>
                     <div class="one-box">
-                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/37000/37427-Kaanapali-Beach.jpg" alt="">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/37000/37427-Kaanapali-Beach.jpg"
+                            alt="">
                         <div class="inside-one-box">
-                            <h2 >
+                            <h2>
                                 Maui
                             </h2>
                             <p>
-                                The scent of kalua pork in the air, canopy zip liners racing through the air, and even a Victorian-era whaling town await intrepid travelers in the Valley Isle.
+                                The scent of kalua pork in the air, canopy zip liners racing through the air, and even a
+                                Victorian-era whaling town await intrepid travelers in the Valley Isle.
                             </p>
                         </div>
                     </div>
@@ -426,8 +538,991 @@
                 </div>
 
             </div>
+
         </div>
     </div>
+
+    <!-- media queries thing Second div part -->
+
+    <div class="media-album">
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/152000/152053-Los-Angeles.jpg"
+                alt="New York">
+            <h2>
+                Los Angeles
+            </h2>
+            <p>
+                Whether it’s fame and fortune, sunbaked beaches, or a foodie paradise that you dream of, the
+                largest city in California has that and more.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/21000/21298-San-Francisco.jpg"
+                alt="">
+
+            <h2>
+                San Francisco
+            </h2>
+            <p>
+                This city proves that strange, exciting, and wondrous experiences can come in small
+                packages.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/22000/22278-Disneys-California-Adventure-Park.jpg"
+                alt="">
+            <h2>
+                Orange County
+            </h2>
+            <p style="text-align: left;">Plenty of sunshine, pristine suburban neighborhoods, and those
+                famous beaches…this county is the epitome of California dreamin’.</p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/170000/170862-Seattle.jpg"
+                alt="New York">
+            <h2>
+                Seattle
+            </h2>
+            <p>
+                This Pacific Northwest town may have its roots in the logging industry, but this trend-setting
+                town has popularized everything from Grunge music to the spread of our coffee-obsessed culture.
+            </p>
+        </div>
+
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/170000/170277-Portland.jpg"
+                alt="">
+            <h2>Portland</h2>
+            <p>
+                A true paradise for foodies, hipsters, and lovers of nature. Take a walk on the weird side
+                in the City of Roses.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/193000/193401-San-Jose.jpg"
+                alt="">
+            <h2>Sillicon Valley</h2>
+            <p>
+                Let your high-tech eyewear or smartphone guide you down the tree-lined streets and seemingly
+                endless footpaths and trails of this high-tech region.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/25000/25450-Monterey-Bay-Aquarium.jpg"
+                alt="">
+            <h2>Monterey</h2>
+            <p>
+                Colorful literary characters, protected sea creatures, and more historic buildings than any
+                other city west of Santa Fe. California’s first city has it all.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/25000/25562-Palm-Springs.jpg"
+                alt="">
+            <h2>
+                Palm Springs
+            </h2>
+            <p>
+                Nestled at the foot of the San Jacinto Mountains is a town with as many palm trees as
+                residents, more golf courses than houses, and footprints from Sinatra, Martin, and Davis
+                Jr.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/214000/214126-Lake-Tahoe.jpg"
+                alt="">
+            <h2>
+                Lake Tahoe
+            </h2>
+            <p>
+                With the “Golden State” on one side, the “Silver State” on the other, and a beautiful
+                body of water situated right in between the two, this High Sierra lake town is the
+                epitome of a mountain paradise.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/25000/25450-Monterey-Bay-Aquarium.jpg"
+                alt="">
+            <h2>Monterey</h2>
+            <p>
+                Colorful literary characters, protected sea creatures, and more historic buildings than any
+                other city west of Santa Fe. California’s first city has it all.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/74000/74046-California.jpg"
+                alt="">
+            <h2>
+                Santa Barbara
+            </h2>
+            <p style="text-align: left;">Tempting beaches, world-class wineries, and lush greenery are
+                just some of the amenities boasted by this surprisingly small town.</p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/202000/202828-San-Luis-Obispo.jpg"
+                alt="New York">
+            <h2>
+                San Luis Obispo
+            </h2>
+            <p>
+                Bounded by California mountains, some of which march right to the Pacific, “SLO” (or “slow”
+                as the locals lovingly call it) is the perfect place to kick back.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/241000/241516-Oakland.jpg"
+                alt="New York">
+            <h2>
+                Oakland
+            </h2>
+            <p>
+                Secret staircases, telephone gnomes, and off-the-beaten path eateries make this East Bay
+                city a worthy getaway
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/215000/215758-Napa-Valley.jpg"
+                alt="">
+            <h2>
+                Napa Valley
+            </h2>
+            <p>
+                Vines and orchards stretch as far as the eye can see, interrupted only by gourmet
+                restaurants, tasting rooms, and hotels catering to wine-lovers everywhere.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/170000/170322-Lincoln-City.jpg"
+                alt="">
+            <h2>
+                Central Oregon Coast
+            </h2>
+            <p>
+                This misty, rugged coastline will put on a show for you. Mother Nature is ready to show
+                you her best side!
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/37000/37427-Kaanapali-Beach.jpg"
+                alt="">
+
+            <h2>
+                Maui
+            </h2>
+            <p>
+                The scent of kalua pork in the air, canopy zip liners racing through the air, and even a
+                Victorian-era whaling town await intrepid travelers in the Valley Isle.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/237000/237317-Cape-Cod.jpg"
+                alt="">
+            <h2>Cape Cod</h2>
+            <p>
+                Each night the lighthouse beacons warn ships away from the rocky shore, but there’s no
+                reason for you to stay away from this fascinating place.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/134000/134377-Ocean-City.jpg"
+                alt="">
+            <h2>Ocean City</h2>
+            <p>
+                Towering hotels overlook a shore dotted with theme parks, restaurants, shops and even a golf
+                course, making this narrow strip of sand the ultimate resort town.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/211000/211224-New-York.jpg"
+                alt="">
+            <h2>Brookly</h2>
+            <p>
+                The fourth-largest city in the U.S. more than holds its own. While Manhattan may still get
+                most of the attention, this former home of the Dodgers is doing just fine.
+            </p>
+        </div>
+
+
+
+    </div>
+
+
+    <!-- third box part -->
+
+    <div class="album" style="background-color: rgb(181, 212, 222); height: auto">
+        <p style="font-size: 1.2rem; text-align:center;" class='headline'>
+            Discover the Mountain West of the USA
+        </p>
+        <div id="album-boxes" style="padding-bottom: 2rem;">
+            <div class="content-box">
+                <div class="album-box">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/167000/167545-Las-Vegas-Nevada.jpg"
+                        alt="New York">
+                    <h2>
+                        Las Vegas
+                    </h2>
+                    <p>
+                        A surreal, neon-lit skyline dotted with world-renowned landmarks. A pyramid that shoots a white
+                        beam of light into the black space above. This is “America’s Playground.”
+                    </p>
+                </div>
+                <div class="album-box1">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/21000/21457-City-Park.jpg"
+                        alt="">
+                    <div class="text-content1">
+                        <h2>
+                            Denver
+                        </h2>
+                        <p>From bearded brewery enthusiasts to outdoorsman strapped to bicycles & 40-pound backpacks to
+                            local cuisine that’s an adventure all its own, this is the Mile-High City.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box">
+                <div id="albm" style="margin-left: 0px;" class="album-box1">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/344000/344181-Colorado-Springs.jpg"
+                        alt="">
+                    <div class="text-content1">
+                        <h2>
+                            Colorado Springs
+                        </h2>
+                        <p style="text-align: left;">Filled with Wild West saloons, incredible restaurants, and military
+                            history, this mountain city awaits trailblazers of all kinds.</p>
+                    </div>
+                </div>
+                <div class="album-box">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/248000/248060-Jackson-Hole.jpg"
+                        alt="New York">
+                    <h2>
+                        Jackson Hole
+                    </h2>
+                    <p>
+                        At the junction of secluded wilderness, epic mountain views, and epicurean luxury lies one of
+                        Wyoming’s top attractions.
+                    </p>
+                </div>
+            </div>
+            <div class="album-grid">
+                <div id="first-div">
+                    <div>
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/214000/214068-Reno.jpg"
+                            alt="">
+                        <h2>Reno</h2>
+                        <p>
+                            An outdoor playground, casinos, and plenty of mining history. The “Biggest Little City in
+                            the World” is a gold mine for savvy Nevada visitors.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/147000/147427-Summit-County-Ski-Areas.jpg"
+                            alt="">
+                        <h2>Summit County</h2>
+                        <p>
+                            The meeting of landscapes provides a crossroads, so to speak, but here you can straddle the
+                            line—and the summit—for as many miles as you like.”
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/80000/80048-Zion-National-Park-And-Vicinity.jpg"
+                            alt="">
+                        <h2>Zion National Park</h2>
+                        <p>
+                            Mother Nature is dressed to impress, and yowza! From the towering cliffs to the delicate
+                            flowers peeking from a rock face, this place is nourishment for the soul.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- third box media queries part -->
+
+    <div class="media-album">
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/167000/167545-Las-Vegas-Nevada.jpg"
+                alt="New York">
+            <h2>
+                Las Vegas
+            </h2>
+            <p>
+                A surreal, neon-lit skyline dotted with world-renowned landmarks. A pyramid that shoots a white
+                beam of light into the black space above. This is “America’s Playground.”
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/21000/21457-City-Park.jpg"
+                alt="">
+            <h2>
+                Denver
+            </h2>
+            <p>From bearded brewery enthusiasts to outdoorsman strapped to bicycles & 40-pound backpacks to
+                local cuisine that’s an adventure all its own, this is the Mile-High City.</p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/344000/344181-Colorado-Springs.jpg"
+                alt="">
+
+            <h2>
+                Colorado Springs
+            </h2>
+            <p style="text-align: left;">Filled with Wild West saloons, incredible restaurants, and military
+                history, this mountain city awaits trailblazers of all kinds.</p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/248000/248060-Jackson-Hole.jpg"
+                alt="New York">
+            <h2>
+                Jackson Hole
+            </h2>
+            <p>
+                At the junction of secluded wilderness, epic mountain views, and epicurean luxury lies one of
+                Wyoming’s top attractions.
+            </p>
+        </div>
+
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/94000/94040-Pnc-Park.jpg"
+                alt="">
+            <h2>Pittsburgh</h2>
+            <p>
+                This town of steel has stripped away its industrial exterior and built itself into a diverse
+                and enjoyable hub. It might be Pennsylvania’s best-kept cultural secret.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/214000/214068-Reno.jpg" alt="">
+            <h2>Reno</h2>
+            <p>
+                An outdoor playground, casinos, and plenty of mining history. The “Biggest Little City in
+                the World” is a gold mine for savvy Nevada visitors.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/147000/147427-Summit-County-Ski-Areas.jpg"
+                alt="">
+            <h2>Summit County</h2>
+            <p>
+                The meeting of landscapes provides a crossroads, so to speak, but here you can straddle the
+                line—and the summit—for as many miles as you like.”
+            </p>
+        </div>
+
+
+
+    </div>
+
+    <!-- fourth box part -->
+
+    <div class="album" style="height: auto;">
+        <p style="font-size: 1.2rem; text-align:center;" class='headline'>
+            Discover the South West of the USA
+        </p>
+        <div id="album-boxes" style="padding-bottom: 2rem;">
+            <div class="content-box">
+                <div class="album-box">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/34000/34493-Reunion-Tower.jpg"
+                        alt="New York">
+                    <h2>
+                        Dallas
+                    </h2>
+                    <p>
+                        A surreal, neon-lit skyline dotted with world-renowned landmarks. A pyramid that shoots a white
+                        beam of light into the black space above. This is “America’s Playground.”
+                    </p>
+                </div>
+                <div class="album-box1">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/27000/27324-Phoenix.jpg"
+                        alt="">
+                    <div class="text-content1">
+                        <h2>
+                            Pheonix
+                        </h2>
+                        <p>From bearded brewery enthusiasts to outdoorsman strapped to bicycles & 40-pound backpacks to
+                            local cuisine that’s an adventure all its own, this is the Mile-High City.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box">
+                <div id="albm" style="margin-left: 0px;" class="album-box1">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/21000/21849-San-Antonio.jpg"
+                        alt="">
+                    <div class="text-content1">
+                        <h2>
+                            San Antonio
+                        </h2>
+                        <p style="text-align: left;">Filled with Wild West saloons, incredible restaurants, and military
+                            history, this mountain city awaits trailblazers of all kinds.</p>
+                    </div>
+                </div>
+                <div class="album-box">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/21000/21483-Lady-Bird-Lake.jpg"
+                        alt="New York">
+                    <h2>
+                        Austin
+                    </h2>
+                    <p>
+                        At the junction of secluded wilderness, epic mountain views, and epicurean luxury lies one of
+                        Wyoming’s top attractions.
+                    </p>
+                </div>
+            </div>
+            <div class="album-grid">
+                <div id="first-div">
+                    <div>
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/25000/25962-Galveston.jpg"
+                            alt="">
+                        <h2>Galveston</h2>
+                        <p>
+                            An outdoor playground, casinos, and plenty of mining history. The “Biggest Little City in
+                            the World” is a gold mine for savvy Nevada visitors.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/26000/26059-Corpus-Christi.jpg"
+                            alt="">
+                        <h2>Corpus Christi</h2>
+                        <p>
+                            The meeting of landscapes provides a crossroads, so to speak, but here you can straddle the
+                            line—and the summit—for as many miles as you like.”
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/190000/190216-Sedona.jpg"
+                            alt="">
+                        <h2>Sedona</h2>
+                        <p>
+                            Mother Nature is dressed to impress, and yowza! From the towering cliffs to the delicate
+                            flowers peeking from a rock face, this place is nourishment for the soul.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- fourth box media queries part -->
+
+    <div class="media-album">
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/34000/34493-Reunion-Tower.jpg"
+                alt="New York">
+            <h2>
+                Dallas
+            </h2>
+            <p>
+                A surreal, neon-lit skyline dotted with world-renowned landmarks. A pyramid that shoots a white
+                beam of light into the black space above. This is “America’s Playground.”
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/27000/27324-Phoenix.jpg" alt="">
+            <h2>
+                Pheonix
+            </h2>
+            <p>From bearded brewery enthusiasts to outdoorsman strapped to bicycles & 40-pound backpacks to
+                local cuisine that’s an adventure all its own, this is the Mile-High City.</p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/21000/21849-San-Antonio.jpg"
+                alt="">
+
+            <h2>
+                San Antonio
+            </h2>
+            <p style="text-align: left;">Filled with Wild West saloons, incredible restaurants, and military
+                history, this mountain city awaits trailblazers of all kinds.</p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/21000/21483-Lady-Bird-Lake.jpg"
+                alt="New York">
+            <h2>
+                Austin
+            </h2>
+            <p>
+                At the junction of secluded wilderness, epic mountain views, and epicurean luxury lies one of
+                Wyoming’s top attractions.
+            </p>
+        </div>
+
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/25000/25962-Galveston.jpg"
+                alt="">
+            <h2>Galveston</h2>
+            <p>
+                This town of steel has stripped away its industrial exterior and built itself into a diverse
+                and enjoyable hub. It might be Pennsylvania’s best-kept cultural secret.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/26000/26059-Corpus-Christi.jpg"
+                alt="">
+            <h2>Corpus Christi</h2>
+            <p>
+                An outdoor playground, casinos, and plenty of mining history. The “Biggest Little City in
+                the World” is a gold mine for savvy Nevada visitors.
+            </p>
+        </div>
+        <div class="media-album-1">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/190000/190216-Sedona.jpg"
+                alt="">
+            <h2>Sedona</h2>
+            <p>
+                The meeting of landscapes provides a crossroads, so to speak, but here you can straddle the
+                line—and the summit—for as many miles as you like.”
+            </p>
+        </div>
+
+
+
+    </div>
+
+    <!-- Discover of South of the USA Part -->
+
+    <div class="album" style="background-color: rgb(181, 212, 222); height: auto">
+        <p style="font-size: 1.2rem; text-align:center;" class='headline'>
+            Discover the South of the USA
+        </p>
+        <div id="album-boxes">
+            <div class="content-box">
+                <div class="album-box">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/21000/21837-Orlando.jpg"
+                        alt="New York">
+                    <h2>
+                        Orlando
+                    </h2>
+                    <p>
+                        Whether it’s fame and fortune, sunbaked beaches, or a foodie paradise that you dream of, the
+                        largest city in California has that and more.
+                    </p>
+                </div>
+                <div class="album-box1">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/174000/174918-Miami.jpg"
+                        alt="">
+                    <div class="text-content1">
+                        <h2>
+                            Miami
+                        </h2>
+                        <p>
+                            This city proves that strange, exciting, and wondrous experiences can come in small
+                            packages.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box">
+                <div id="albm" style="margin-left: 0px;" class="album-box1">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/23000/23007-National-World-War-Ii-Museum.jpg"
+                        alt="">
+                    <div class="text-content1">
+                        <h2>
+                            New Orleans
+                        </h2>
+                        <p style="text-align: left;">Plenty of sunshine, pristine suburban neighborhoods, and those
+                            famous beaches…this county is the epitome of California dreamin’.</p>
+                    </div>
+                </div>
+                <div class="album-box">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/21000/21423-Fort-Lauderdale.jpg"
+                        alt="New York">
+                    <h2>
+                        Fort Lauderdale
+                    </h2>
+                    <p>
+                        This Pacific Northwest town may have its roots in the logging industry, but this trend-setting
+                        town has popularized everything from Grunge music to the spread of our coffee-obsessed culture.
+                    </p>
+                </div>
+            </div>
+            <div class="album-grid">
+                <div id="first-div">
+                    <div>
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/197000/197069-Nashville.jpg"
+                            alt="">
+                        <h2>Nashville</h2>
+                        <p>
+                            A true paradise for foodies, hipsters, and lovers of nature. Take a walk on the weird side
+                            in the City of Roses.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/26000/26445-Tampa-Bay.jpg"
+                            alt="">
+                        <h2>Tampa</h2>
+                        <p>
+                            Let your high-tech eyewear or smartphone guide you down the tree-lined streets and seemingly
+                            endless footpaths and trails of this high-tech region.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/56000/56477-Wonderworks-Myrtle-Beach.jpg"
+                            alt="">
+                        <h2>Myrtle Beach</h2>
+                        <p>
+                            Colorful literary characters, protected sea creatures, and more historic buildings than any
+                            other city west of Santa Fe. California’s first city has it all.
+                        </p>
+                    </div>
+                </div>
+                 <!-- display none function start from here -->
+                <div id="displayfnc" style="display: none;">
+                    <div id="total-two-box">
+                        <div class="one-box">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/63000/63797-Florida-Keys.jpg"
+                                alt="">
+                            <div class="inside-one-box">
+                                <h2>
+                                    Florida Keys
+                                </h2>
+                                <p>
+                                    Nestled at the foot of the San Jacinto Mountains is a town with as many palm trees
+                                    as
+                                    residents, more golf courses than houses, and footprints from Sinatra, Martin, and
+                                    Davis
+                                    Jr.
+                                </p>
+                            </div>
+                        </div>
+
+                       
+                        <div class="one-box">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/183000/183765-Charleston.jpg"
+                                alt="">
+                            <div class="inside-one-box">
+                                <h2>
+                                    Charleston
+                                </h2>
+                                <p>
+                                    With the “Golden State” on one side, the “Silver State” on the other, and a
+                                    beautiful
+                                    body of water situated right in between the two, this High Sierra lake town is the
+                                    epitome of a mountain paradise.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- another box that div box part-4 -->
+
+                    <div id="hideandseek" class="content-box">
+                        <div id="albm" style="margin-left: 0px;" class="album-box1">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/126000/126018-Savannah.jpg"
+                                alt="">
+                            <div class="text-content1">
+                                <h2>
+                                    Savannah
+                                </h2>
+                                <p style="text-align: left;">Tempting beaches, world-class wineries, and lush greenery
+                                    are
+                                    just some of the amenities boasted by this surprisingly small town.</p>
+                            </div>
+                        </div>
+                        <div class="album-box">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/63000/63619-Jacksonville.jpg"
+                                alt="New York">
+                            <h2>
+                                Jackson Villah
+                            </h2>
+                            <p>
+                                Bounded by California mountains, some of which march right to the Pacific, “SLO” (or
+                                “slow”
+                                as the locals lovingly call it) is the perfect place to kick back.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- another box that div box part-5 -->
+                    <div id="hideandseek1" class="content-box">
+                        <div class="album-box">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/229000/229691-Norfolk.jpg"
+                                alt="New York">
+                            <h2>
+                                Norfolk - Virgenia Beach
+                            </h2>
+                            <p>
+                                Secret staircases, telephone gnomes, and off-the-beaten path eateries make this East Bay
+                                city a worthy getaway
+                            </p>
+                        </div>
+                        <div class="album-box1">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/25000/25972-Daytona-Beach.jpg"
+                                alt="">
+                            <div class="text-content1">
+                                <h2>
+                                    Dayotana Beach
+                                </h2>
+                                <p>
+                                    Vines and orchards stretch as far as the eye can see, interrupted only by gourmet
+                                    restaurants, tasting rooms, and hotels catering to wine-lovers everywhere.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- two boxes part -->
+                    <div id="total-two-box">
+                        <div class="one-box">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/48000/48939-Memphis.jpg"
+                                alt="">
+                            <div class="inside-one-box">
+                                <h2>
+                                    Memphis
+                                </h2>
+                                <p>
+                                    This misty, rugged coastline will put on a show for you. Mother Nature is ready to
+                                    show
+                                    you her best side!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="one-box">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/66000/66136-Fort-Myers.jpg"
+                                alt="">
+                            <div class="inside-one-box">
+                                <h2>
+                                    Fort Myers
+                                </h2>
+                                <p>
+                                    The scent of kalua pork in the air, canopy zip liners racing through the air, and
+                                    even a
+                                    Victorian-era whaling town await intrepid travelers in the Valley Isle.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid-box-last part-->
+                    <div id="second-div1">
+                        <div>
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/59000/59208-Sarasota-And-Vicinity.jpg"
+                                alt="">
+                            <h2>Sarosta</h2>
+                            <p>
+                                Each night the lighthouse beacons warn ships away from the rocky shore, but there’s no
+                                reason for you to stay away from this fascinating place.
+                            </p>
+                        </div>
+                        <div>
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/33000/33746-Pensacola-Beach.jpg"
+                                alt="">
+                            <h2>Pensacola</h2>
+                            <p>
+                                Towering hotels overlook a shore dotted with theme parks, restaurants, shops and even a
+                                golf
+                                course, making this narrow strip of sand the ultimate resort town.
+                            </p>
+                        </div>
+                        <div>
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/107000/107496-Panama-City.jpg"
+                                alt="">
+                            <h2>Panama</h2>
+                            <p>
+                                The fourth-largest city in the U.S. more than holds its own. While Manhattan may still
+                                get
+                                most of the attention, this former home of the Dodgers is doing just fine.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <button id="view3">
+                        View More
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Discover more of the Worlds Most Amazing places -->
+
+    <div class="album" style="height: auto">
+        <p style="font-size: 1.2rem; text-align:center;" class='headline'>
+            Discover more of the Worlds Most Amazing places
+        </p>
+        <div id="album-boxes">
+            <div class="content-box">
+                <div class="album-box">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/302000/302241-London.jpg"
+                        alt="New York">
+                    <h2>
+                        London
+                    </h2>
+                    <p>
+                        Whether it’s fame and fortune, sunbaked beaches, or a foodie paradise that you dream of, the
+                        largest city in California has that and more.
+                    </p>
+                </div>
+                <div class="album-box1">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/114000/114719-Paris.jpg"
+                        alt="">
+                    <div class="text-content1">
+                        <h2>
+                            Paris
+                        </h2>
+                        <p>
+                            This city proves that strange, exciting, and wondrous experiences can come in small
+                            packages.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box">
+                <div id="albm" style="margin-left: 0px;" class="album-box1">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/114000/114719-Paris.jpg"
+                        alt="">
+                    <div class="text-content1">
+                        <h2>
+                            Rome
+                        </h2>
+                        <p style="text-align: left;">Plenty of sunshine, pristine suburban neighborhoods, and those
+                            famous beaches…this county is the epitome of California dreamin’.</p>
+                    </div>
+                </div>
+                <div class="album-box">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/25000/25419-The-Netherlands.jpg"
+                        alt="New York">
+                    <h2>
+                        Amsterdam
+                    </h2>
+                    <p>
+                        This Pacific Northwest town may have its roots in the logging industry, but this trend-setting
+                        town has popularized everything from Grunge music to the spread of our coffee-obsessed culture.
+                    </p>
+                </div>
+            </div>
+            <div class="album-grid">
+                <div id="total-two-box">
+                    <div class="one-box">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/69000/69344-Tokyo.jpg"
+                            alt="">
+                        <div class="inside-one-box">
+                            <h2>
+                                Tokyo
+                            </h2>
+                            <p>
+                                Nestled at the foot of the San Jacinto Mountains is a town with as many palm trees as
+                                residents, more golf courses than houses, and footprints from Sinatra, Martin, and Davis
+                                Jr.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="one-box">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/41000/41548-Las-Caletas.jpg"
+                            alt="">
+                        <div class="inside-one-box">
+                            <h2>
+                               Puerto Vallarta
+                            </h2>
+                            <p>
+                                With the “Golden State” on one side, the “Silver State” on the other, and a beautiful
+                                body of water situated right in between the two, this High Sierra lake town is the
+                                epitome of a mountain paradise.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- another box that div box part-4 -->
+
+                <div  id="hideandseek1" class="content-box">
+                    <div class="album-box">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/41000/41475-Playa-Del-Amor-Lovers-Beach.jpg"
+                            alt="New York">
+                        <h2>
+                            Los Cabos
+                        </h2>
+                        <p>
+                            Secret staircases, telephone gnomes, and off-the-beaten path eateries make this East Bay
+                            city a worthy getaway
+                        </p>
+                    </div>
+                    <div class="album-box1">
+                        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res20/116000/116608-Punta-Cana.jpg"
+                            alt="">
+                        <div class="text-content1">
+                            <h2>
+                                Punta Cana
+                            </h2>
+                            <p>
+                                Vines and orchards stretch as far as the eye can see, interrupted only by gourmet
+                                restaurants, tasting rooms, and hotels catering to wine-lovers everywhere.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--------------------------------------footer part------------------------------------>
+
+    <div style="background-color: rgb(202, 240, 231);" id="footer">
+        
+        <div class="flex">
+            <div>
+                <p>Travelocity</p>
+            </div>
+            <div>
+                <a href="https://www.travelocity.com/p/about"><p>About Travelocity</p></a>
+                <a href="https://www.travelocity.com/service?locale=en_US"><p>Customer Support</p></a>
+                <a href="https://www.advertising.expedia.com/"><p>Advertising</p></a>
+                <a href="http://www.lifeatexpedia.com/"><p>Jobs</p></a>
+                <a href="https://www.youtube.com/user/TRAVELOCITY"><p>Tv ads</p></a>
+                <a href="https://www.travelocity.com/privacy"><p>Privacy Policy</p></a>
+                <a href="https://www.travelocity.com/terms"><p>Terms of Use</p></a>
+                <a href="https://www.travelocity.com/p/info-other/sitemap"><p>Site Map</p></a>
+                <a href="https://www.travelocity.com/p/info-other/web-accessibility-policy"><p>Accessiblity</p></a>
+            </div>
+        </div>
+        
+        <div class="flex">
+            <div>
+                <p>Other Links</p>
+            </div>
+            <div>
+                <a href="https://www.travelocity.com/United-States-Of-America.d201.Destination-Travel-Guides"><p>USA Vacation packages</p></a>
+                <a href="https://www.travelocity.com/Destinations-In-United-States-Of-America.d201.Flight-Destinations"><p>USA Flights</p></a>
+                <a href="https://www.travelocity.com/Destinations-In-United-States-Of-America.d201.Hotel-Destinations"><p>USA hotels</p></a>
+                <a href="https://www.travelocity.com/Car-Rentals-In-United-States-Of-America.d201.Car-Rental-Guide"><p>USA Car Hire</p></a>
+                <a href="https://www.travelocity.com/Accommodations"><p>Unique Places to Stay</p></a>
+                <a href="http://www.roaminggnomestore.com/"><p>Travelocity Merchadise</p></a>
+                <a href="https://www.travelocity.com/guarantee"><p>Travelocity Guidlines</p></a>
+                <a href="https://www.travelocity.com/p/email-signup/email-signup.htm"><p>Subscribe</p></a>
+                <a href="https://www.travelocity.com/user/createaccount"><p>Create an Account</p></a>
+            </div>
+        </div>
+        
+        <div class="flex">
+            <div>
+                <p>Global Sites</p>
+            </div>
+            <div>
+                <img src="https://www.pngitem.com/pimgs/m/651-6518006_canada-flag-square-icon-hd-png-download.png" alt="">
+            </div>
+            
+        </div>
+
+        <div class="flex">
+            <div>
+                <p style="color: gray; font-weight: lighter;">
+                    © 2020 Travelscape LLC. All rights reserved. Travelocity, the Stars Design, and The Roaming Gnome Design are trademarks of Travelscape LLC. Use of this Web site constitutes acceptance of the Travelocity User Agreement and Privacy Policy. CST# 2083930-50
+                </p>
+            </div>
+        </div>
+        
+    </div>
+
+   
+
+
+
+
+
 
 
 </body>

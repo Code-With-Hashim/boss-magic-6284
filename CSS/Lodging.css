@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;1,400;1,500&family=Poppins:wght@300;400;500&family=Roboto:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* 
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
+  text-align: center;
+  /* position: relative; */
+}
+/** section-2 Start */
+.header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.section-2 {
+    width: 50%;
+    padding: 2rem;
+  
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: white;
+    border-radius: 1.2rem;
+  }
+  .card-container > .steps {
+    width: 80%;
+    text-align: left;
+    margin-left: 1rem;
+    color: gray;
+  }
+  .card-container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .card-container > .counter > .btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .counter > .btn > .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  .buttons > button {
+    color: rgb(56, 56, 255);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid blue;
+  }
+  .buttons > button:hover,
+  .nextbtn:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  .nextbtn {
+    width: 56%;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    background-color: blue;
+    border: none;
+ 
+  }
+  .inputadd {
+    width: 50%;
+    padding: 1rem;
+    text-align: left;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+  
+  }
+  .inputadd > img {
+    width: 5%;
+  }
+  .inputadd > input {
+    border: none;
+    outline: none;
+  }
+
+/** section-8  Start*/
+.section-8 {
+  background-color: blue;
+  color: white;
+  padding-bottom: 2rem;
+}
+.section-8 a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+}
+.section-8 > .footer-1 {
+  width: 80%;
+
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.section-8 > .footer-1 > div {
+  margin-top: 2rem;
+  width: 60%;
+  text-align: center;
+}
+
+.section-8 > .footer-1 a:hover {
+  color: rgb(255, 255, 255);
+
+  font-size: 1.5rem;
+  transition: 0.4s ease-in-out;
+}
+.section-8 > .footer-1 > .content-3 > p {
+  font-size: 0.8rem;
+}
+.section-8 > .footer-1 > .content-3 > a > img {
+  width: 80%;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding: 0.8rem;
+}
+
+@media (max-width: 950px) and (min-width: 10px) {
+  .section-8 > .footer-1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    gap: 0.1rem;
+    grid-template-columns: 1fr;
+  }
+  .section-8 > .footer-1 > div {
+    width: 90%;
+    margin: auto;
+    /* text-align: center; */
+  }
+  .section-8 > .footer-1 > .content-3 > a > img {
+    width: 60%;
+  }
+  .content-3 > p {
+    width: 100%;
+  }
+}
+
+.footer-2 > div {
+  font-size: 0.8rem;
+  
+  margin-bottom: 1rem;
+}
+.footer-2 > div:before {
+  display: block;
+  content: "";
+  border: 1px solid #5252ff;
+  width: 100%;
+}
+.footer-2 > div a:hover {
+  font-size: 1rem;
+  color: aliceblue;
+  transition: 0.2s ease-in-out;
+}
+/** section-8  End*/
+/* ?Common hover effect */
+
+img{
+  transition:transform 0.3s;
+  
+}
+img:hover{
+  transform: scale(1.1);
+  }
+ 

@@ -113,6 +113,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   border-radius: 12px;
+  transition:transform .3s ;
 }
 .cards > .card-1 > .content {
   font-size: 1em;
@@ -127,7 +128,7 @@ body {
 }
 .section-3 .card-1:hover{
   transform: scale(1.1);
-  transition: .3s ease-in-out;
+ 
 }
 @media (max-width: 1400px) and (min-width: 1180px) {
   .section-3 {
@@ -402,7 +403,11 @@ li {
 /** section-8  End*/
 /* ?Common hover effect */
 
-img:hover{
-transform: scale(1.1);
-transition: 0.3s ease-in-out;
+img{
+  transition:transform 0.3s;
+  
 }
+img:hover{
+  transform: scale(1.1);
+  }
+ 

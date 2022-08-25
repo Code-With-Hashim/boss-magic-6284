@@ -121,6 +121,14 @@ body {
 .cards > .c2 {
   cursor: pointer;
 }
+.card-1>a{
+  text-decoration: none;
+  color: black;
+}
+.section-3 .card-1:hover{
+  transform: scale(1.1);
+  transition: .3s ease-in-out;
+}
 @media (max-width: 1400px) and (min-width: 1180px) {
   .section-3 {
     width: 40%;
@@ -392,3 +400,9 @@ li {
   transition: 0.2s ease-in-out;
 }
 /** section-8  End*/
+/* ?Common hover effect */
+
+img:hover{
+transform: scale(1.1);
+transition: 0.3s ease-in-out;
+}

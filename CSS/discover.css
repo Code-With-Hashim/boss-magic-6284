@@ -318,6 +318,7 @@ h2:hover {
     width: 49%;
     height: 400px;
     border: 1px solid aquamarine;
+    background-color: white;
     
  }
 
@@ -379,6 +380,7 @@ h2:hover {
 #footer {
     width: 100%;
     font-family: Roboto;
+    padding: 3rem;
     
 }
 

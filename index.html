@@ -10,12 +10,13 @@
       href="https://media3.giphy.com/media/ifBEhUvCPQWxYxlCsl/giphy.gif?cid=6c09b952ccf3bbb9e8eb38359506c48dad56e59850bd35c6&rid=giphy.gif&ct=s"
     />
     <title>
-      Wander Wisely with Cheap Hotels, Flights, Vacations &amp; Travel Deals | Travelocity
+      Wander Wisely with Cheap Hotels, Flights, Vacations &amp; Travel Deals |
+      Travelocity
     </title>
     <link rel="stylesheet" href="./CSS/index.css" />
     <script src="./Scripts/index.js"></script>
-    <link rel="stylesheet" href="./CSS/navbar.css" />
-    <script src="./Scripts/Navbar.js"></script>
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="Navbar.js"></script>
   </head>
   <body>
     <!-- -------------------------------- Navbar Starts ----------------------------------- -->
@@ -26,7 +27,7 @@
       <div class="navDropdown">
         <button onclick="moreTravel()" class="navDropbtn">More Travel</button>
         <div id="myDropdown" class="navDropdown_cont">
-          <a href="packages.html">
+          <a href="vacation.html">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -47,7 +48,7 @@
 
             Packages
           </a>
-          <a href="hotels.html">
+          <a href="./vacation.html">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -65,7 +66,7 @@
                 d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
               ></path>
             </svg>
-            Hotels
+            Stays
           </a>
           <a href="#">
             <svg
@@ -158,9 +159,8 @@
         <a
           href="https://www.travelocity.com/es/Actividades?langid=2058&amp;tpid=80001&amp;eapid=0"
           target="_blank"
-          class="navA1"
-          >Espanol</a
-        >
+          class="navA1">Espanol</a>
+        
         <a href="#" class="navA2">List Your property</a>
         <a href="#" class="navA3">Support</a>
         <a href="#" class="navA4">Trips</a>
@@ -195,16 +195,14 @@
         <div class="SearchFront">
           <div class="sub_cont">
             <button class="searchHotel" onclick="show('showHotel');">
-             Hotel
+              Hotel
             </button>
 
             <button class="seachFlight" onclick="show('showFlight');">
               Flight
             </button>
 
-            <button class="searchCar" onclick="show('showCar');">
-              Car
-            </button>
+            <button class="searchCar" onclick="show('showCar');">Car</button>
 
             <button class="searchPackages" onclick="show('showPackage');">
               Package
@@ -317,7 +315,7 @@
               onblur="(this.type='text')"
             />
             <button class="btn4">Going To</button>
-            <br>
+            <br />
             <input type="checkbox" class="checkbox2" />
             <label for="checkbox1">Add a place to Stay</label>
             <input type="checkbox" class="checkbox2" />
@@ -343,14 +341,14 @@
               onblur="(this.type='text')"
             />
             <button class="btn4">travelers</button>
-            <br>
+            <br />
             <input
               class="checkbox1"
               type="checkbox"
               id="myCheck"
               onclick="checkbox_CreateElement()"
             />
-            
+
             <label for="checkbox1">Add a flight</label>
 
             <input type="checkbox" class="checkbox2" />
@@ -379,10 +377,11 @@
               onblur="(this.type='text')"
             />
             <button class="btn4">Going To</button>
-            <br>
+            <br />
             <input type="checkbox" class="checkbox2" />
             <label for="checkbox1"
-              >I only need accommodations for part of my trip</label>
+              >I only need accommodations for part of my trip</label
+            >
 
             <button class="search">Search</button><br />
           </div>
@@ -436,7 +435,7 @@
               onblur="(this.type='text')"
             />
             <button class="btn4">travelers</button>
-            <br>
+            <br />
             <input
               class="checkbox1"
               type="checkbox"
@@ -458,5 +457,383 @@
     </section>
 
     <!-- ------------------------------------ Searchbar End ------------------------------------- -->
+
+    <!-- -------------------------------------- Homepage 3-cards Starts----------------------------------- -->
+
+    <div id="GauravDiv1"><a style="text-decoration: none" href="https://www.travelocity.com/lp/b/guarantee?pwaLob=wizard-hotel-pwa-v2#editorial-3?rfrr=call-to-action.Find_your%20perfect%20trip.click">
+
+      <div id="GauravDiv1Main1">
+        <img
+          src="https://forever.travel-assets.com/flex/flexmanager/images/2020/11/12/TVLY_StoreFrontRefresh_BrandPromise_FitForYou_sfimg_562x240_20201111.jpg?impolicy=fcrop&w=600&h=257&q=medium"
+          alt=""
+          class="GauravDiv1img"
+        />
+        <p class="GauravDiv1para clear">
+          Plan a trip for the whole family—from family travel tips to
+          family-friendly filters, our tools make it easy.
+        </p>
+    </a>
+      </div>
+      <div id="GauravDiv1Main2"><a style="text-decoration: none" href="https://www.travelocity.com/lp/b/guarantee?pwaLob=wizard-hotel-pwa-v2&rfrr=call-to-action.Book_with+flexibility.click#editorial-4">
+        <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/11/12/TVLY_StoreFrontRefresh_BrandPromise_Transparency_sfimg_562x240_20201111.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="" class="GauravDiv1img" />
+        <p class="GauravDiv1para clear">
+          Read reviews from other travelers, plus if you find a better price
+          we'll match it with our Price Match Guarantee.
+        </p>
+      </a>
+        
+      </div>
+      <div id="GauravDiv1Main3"> <a style="text-decoration: none"  href="https://www.travelocity.com/lp/b/guarantee?pwaLob=wizard-hotel-pwa-v2&rfrr=call-to-action.We%27ve_got+your+back.click#editorial-5">
+
+        <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/11/12/TVLY_StoreFrontRefresh_BrandPromise_GotYourBack_sfimg_562x240_20201111.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="" class="GauravDiv1img" />
+        <p class="GauravDiv1para clear">
+          Need more help along your journey? We offer 24/7 support on social and
+          through virtual agents onsite.
+        </p>
+      </a>
+      </div>
+    </div>
+
+    <!-- -------------------------------------- Homepage 3-cards Ends----------------------------------- -->
+
+        <!-- -------------------------------------- All inclusive reports Start----------------------------------- -->
+
+        <h2 id="GauravDiv2h2">All-inclusive resorts</h2>
+    <div id="GauravDiv2">
+        <div id="GauravDiv2Main1"><a style="text-decoration: none"  href="https://www.travelocity.com/lp/deals/all-inclusive?pwaLob=wizard-hotel-pwa">
+          <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/08/TVLY_Storefront_AllInclusive_imgB_1199x399_20211104.jpg" alt="" id="GauravDiv2main1img">
+          <h3 id="GauravDiv2Main1H3">All-inclusive resorts</h3>
+          <p id="GauravDiv2Main1Para">Think of nothing beyond having a great time with your family</p>
+        </a>
+            
+        </div>
+        <div id="GauravDiv2Main2">
+            <div id="GauravDiv2Main2Div1">
+                <div class="smallDiv1">
+                    <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/08/TVLY_Storefront_Beach_imgB_900x506_20211104.jpg?impolicy=fcrop&w=300&h=200&q=mediumLow" alt="">
+                </div>
+                <div class="smallDiv2">
+                    <h3 id="smallDiv2H3">Last minute getaways</h3>
+                    <p id="smallDiv2para">Celebrate the moment with an unexpected getaway</p>
+                </div>
+            </div>
+            <div id="GauravDiv2Main2Div2">
+                <div class="smallDiv1">
+                    <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/08/TVLY_Storefront_MOD_imgB_900x506_20211104.jpg?impolicy=fcrop&w=300&h=200&q=mediumLow" alt="">
+                </div>
+                <div class="smallDiv2">
+                    <h3 id="smallDiv2H3">It's okay to wing it</h3>
+                    <p id="smallDiv2paraa">Several major airlines are waiving change fees—no reason not to book!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <!-- -------------------------------------- All inclusive reports End----------------------------------- -->
+
+         <!-- -------------------------------------- Body cards start----------------------------------- -->
+
+
+          <h2 style="margin-top: 40px;" id="GauravDiv2h2">Start planing your next trip</h2>
+          <div id="GauravDiv1"><a style="text-decoration: none"  href="https://www.travelocity.com/lp/b/guarantee?pwaLob=wizard-hotel-pwa-v2#editorial-3?rfrr=call-to-action.Find_your%20perfect%20trip.click">
+
+            <div id="GauravDiv1Main1">
+              <img
+                src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/08/TVLY_Storefront_LastMinute_imgB_1199x399_20211104.jpg"
+                alt=""
+                class="GauravDiv1img"
+              />
+              <h2 id="GauravDiv2Main1H3">Sunny hotel beach offer</h2>
+          </a>
+            </div>
+            <div id="GauravDiv1Main2"><a style="text-decoration: none"  href="https://www.travelocity.com/lp/b/guarantee?pwaLob=wizard-hotel-pwa-v2&rfrr=call-to-action.Book_with+flexibility.click#editorial-4">
+              <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/08/TVLY_Storefront_Car_imgB_900x506_20211104.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh" alt="" class="GauravDiv1img" />
+              <h2 id="GauravDiv2Main1H3">Car rentals deals</h2>
+            </a>
+              
+            </div>
+            <div id="GauravDiv1Main3"> <a style="text-decoration: none"  href="https://www.travelocity.com/lp/b/guarantee?pwaLob=wizard-hotel-pwa-v2&rfrr=call-to-action.We%27ve_got+your+back.click#editorial-5">
+      
+              <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/08/TVLY_Storefront_VacationRentals_imgB_900x506_20211104.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh" alt="" class="GauravDiv1img" />
+              <h2 id="GauravDiv2Main1H3">Vacation rentals offers</h2>
+            </a>
+            </div>
+          </div>
+
+<!-- -------------------------------------- Body cards End----------------------------------- -->
+
+
+ <h2 style="margin-top: 40px;" id="GauravDiv2h2">Featured offers</h2>
+<div class="featuredOfferDiv">
+  <img style="height: 600px;
+  width: 95%;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" class="featuredOfferImg" src="https://forever.travel-assets.com/flex/flexmanager/images/2021/12/06/TVLY_Storefront_Family_imgB_990x990_20211202.jpg" alt="">
+
+   <!-- ------------------------ App link starts ------------------------------- -->
+   <div id="vacation7">
+    <div id="vacation71">
+        <div id="vacation711">
+            <img src="https://a.travel-assets.com/mad-service/footer/marquee/TVLY_App_Footer_v1.jpg" alt="">
+        </div>
+        <div id="vacation712">
+            <h2>Wander Wisely with the Travelocity app</h2>
+            <ul>
+                <li>Get helpful alerts about flight status and gate numbers</li>
+                <li>Access all your travel details, even when offline</li>
+                <li>Easily contact your hotel by messaging them right in the app</li>
+            </ul>
+            <h3>Text yourself a download link</h3>
+            <input type="text" placeholder="Country code"><input type="text"
+                placeholder="Phone number"><button>Get the app</button>
+            <h6>By providing your number, you agree to receive a one-time automated text message with a link to
+                get the app. Standard text message rates may apply.</h6>
+        </div>
+        <div id="vacation713">
+            <img src="https://a.travel-assets.com/mad-service/qr-code/portfolio_app_landing/qr_app_landing_footer_travelocity.png"
+                alt="">
+            <h5>Scan the QR code</h5>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------ App link ends ---------------------------------- -->
+
+<div style="margin: 100px; "></div>
+
+<h1 id="above_footer">Destination ideas to plan your next trip</h1>
+
+<div id="Gaurav_footer">
+
+    <div id="Gaurav_footer_box1">
+        <div class="Gaurav_dropdown">
+            <button type="button" class="Gaurav_collapsible">Hotels </button>
+            <div class="Gaurav_content">
+                <div><a href="#">Chicago Hotels</a></div>
+                <div><a href="#">Baltimore Hotels</a></div>
+                <div><a href="#">San Hose Hotels</a></div>
+                <div><a href="#">Las Vegas Hotels</a></div>
+                <div><a href="#">Maui Hotels</a></div>
+                <div><a href="#">Oakland Hotels</a></div>
+                <div><a href="#">Fort Walton beach Hotels</a></div>
+                <div><a href="#">Washington,DC Hotels</a></div>
+                <div><a href="#">London Hotels</a></div>
+                <div><a href="#">Paris Hotels </a></div>
+                <div><a href="#">Cancun Hotels</a></div>
+                <div><a href="#">Punta Cana Hotels</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Gaurav_footer_box2">
+        <div class="Gaurav_dropdown">
+            <button type="button" class="Gaurav_collapsible">Flights </button>
+            <div class="Gaurav_content">
+                <div><a href="#">Flights to London</a></div>
+                <div><a href="#">Flights to Maui</a></div>
+                <div><a href="#">Flights to Washington, DC</a></div>
+                <div><a href="#">Flights to Fort Lauderdale</a></div>
+                <div><a href="#">Flights to St. Louis</a></div>
+                <div><a href="#">Flights to Frankfurt</a></div>
+                <div><a href="#">Flights to Barcelona</a></div>
+                <div><a href="#">Flights to Baltimore</a></div>
+                <div><a href="#">Flights to Paris</a></div>
+                <div><a href="#">Flights to Orange County </a></div>
+                <div><a href="#">Flights to Honolulu</a></div>
+                <div><a href="#">Flights to Los Cabos</a></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="Gaurav_footer_box3">
+        <div class="Gaurav_dropdown">
+            <button type="button" class="Gaurav_collapsible">Vacation Pakages </button>
+            <div class="Gaurav_content">
+                <div><a href="#">Orlando Vacations</a></div>
+                <div><a href="#">San Diego Vacations</a></div>
+                <div><a href="#">Miami Vacations</a></div>
+                <div><a href="#">Nassau Vacations</a></div>
+                <div><a href="#">Seattle Vacations</a></div>
+                <div><a href="#">San Francisco Vacations</a></div>
+                <div><a href="#">Denver Vacations</a></div>
+                <div><a href="#">Montego Bay Vacations </a></div>
+                <div><a href="#">Los Angeles Vacations</a></div>
+                <div><a href="#">Las Vegas Vacations </a></div>
+                <div><a href="#">Cancun Vacations</a></div>
+                <div><a href="#">Cozumel Vacations</a></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="Gaurav_footer_box4">
+        <div class="Gaurav_dropdown">
+            <button type="button" class="Gaurav_collapsible">Cars</button>
+            <div class="Gaurav_content">
+                <div><a href="#">London Car Rentals</a></div>
+                <div><a href="#">Maui Car Rentals</a></div>
+                <div><a href="#">Fort Lauderdale Car Rentals</a></div>
+                <div><a href="#">Honolulu Car Rental</a></div>
+                <div><a href="#">Newark, NJ Car Rentals</a></div>
+                <div><a href="#">San Juan Car Rentals</a></div>
+                <div><a href="#">Dublin Car Rentals</a></div>
+                <div><a href="#">Barcelona Car Rentals </a></div>
+                <div><a href="#">Washington, DC Car Rentals</a></div>
+                <div><a href="#">West Palm Beach Car Rentals</a></div>
+                <div><a href="#">Madrid Car Rentals</a></div>
+                <div><a href="#">Paris Car Rentals</a></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="Gaurav_footer_box5">
+        <div class="Gaurav_dropdown">
+            <button type="button" class="Gaurav_collapsible">Cruises </button>
+            <div class="Gaurav_content">
+                <div><a href="#">Bahamas Cruises</a></div>
+                <div><a href="#">Canada/New England Cruises</a></div>
+                <div><a href="#">Hawaii Cruises</a></div>
+                <div><a href="#">Mexico Cruises</a></div>
+                <div><a href="#">Australia/New Zealand Cruises</a></div>
+                <div><a href="#">Alaskan Cruises</a></div>
+                <div><a href="#">European Cruises</a></div>
+                <div><a href="#">Bermuda Cruises </a></div>
+                <div><a href="#">South Pacific Cruises</a></div>
+                <div><a href="#">Panama Canal Cruises </a></div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="Gaurav_footer_box6">
+        <div class="Gaurav_dropdown">
+            <button type="button" class="Gaurav_collapsible">All inclusive resorts </button>
+            <div class="Gaurav_content">
+                <div><a href="#">Top All-Inclusive Resorts</a></div>
+                <div><a href="#">All Inclusive Resorts Adults Only</a></div>
+                <div><a href="#">All Inclusive Beach Resorts</a></div>
+                <div><a href="#">All Inclusive Family Resorts</a></div>
+                <div><a href="#">Cheap All Inclusive Resorts</a></div>
+                <div><a href="#">All Inclusive Resorts Couples Only</a></div>
+                <div><a href="#">Best All Inclusive Resorts for Couples on a Budget</a></div>
+                <div><a href="#">Luxury All Inclusive Resorts Adults Only</a></div>
+                <div><a href="#">Best Adults Only All Inclusive Resorts for Couples</a></div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="Gaurav_footer_box7">
+        <div class="Gaurav_dropdown">
+            <button type="button" class="Gaurav_collapsible">Travel Deals </button>
+            <div class="Gaurav_content">
+                <div><a href="#">Vacation Package Deals</a></div>
+                <div><a href="#">Travel Deals</a></div>
+                <div><a href="#">Daily Travel Deals</a></div>
+                <div><a href="#">Hotel Deals</a></div>
+                <div><a href="#">Travelocity Coupon Code</a></div>
+                <div><a href="#">Last Minute Travel Deals</a></div>
+                <div><a href="#">Hotels Under $99</a></div>
+                <div><a href="#">All Inclusive Resort Deals </a></div>
+                <div><a href="#">Flights Under $200</a></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+<div style="height: 250px;  "></div>
+
+<div id="vacation9">
+
+  <div id="vacation91">
+      <img
+          src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg">
+  </div>
+  <div id="vacation92">
+      <h4>Company</h4>
+      <a href="">About</a>
+      <a href="">Jobs</a>
+      <a href="">List your property</a>
+      <a href="">Partnerships</a>
+      <a href="">Newsroom</a>
+      <a href="">Investor Relations</a>
+      <a href="">Roaming Gnome Store</a>
+      <a href="">Advertising</a>
+
+  </div>
+  <div id="vacation93">
+      <h4>Explore</h4>
+      <a href="">Hotels in United States</a>
+      <a href="">Vacation Rentals in United States</a>
+      <a href="">Vacation Packages in United States</a>
+      <a href="">Domestic Flights</a>
+      <a href="">Car Rentals in United States</a>
+      <a href="">Travelocity Reviews</a>
+      <a href="">Travelocity Coupons</a>
+      <a href="">Unique Places to Stay</a>
+      <a href="">Travel Blog</a>
+
+  </div>
+  <div id="vacation94">
+      <h4>Policies</h4>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms of Use</a>
+      <a href="">Vrbo terms and conditions</a>
+      <a href="">Accessibility</a>
+      <a href="">Do not sell my personal information</a>
+
+  </div>
+  <div id="vacation95">
+      <h4>Help</h4>
+      <a href="">Support</a>
+      <a href="">Cancel your hotel or vacation rental booking</a>
+      <a href="">Cancel your flight</a>
+      <a href="">Refund timelines, policies & processes</a>
+      <a href="">Use a Travelocity coupon</a>
+
+  </div>
+
+
+</div>
+
+<div id="footer_copyright_text">
+    © 2021 Travelscape LLC, An Expedia Group Company. All rights reserved. Travelocity, the Stars Design, and The
+    Roaming Gnome Design are trademarks of Travelscape LLC. Use of this Web site constitutes acceptance of the
+    Travelocity User Agreement and Privacy Policy. <br />CST# 2083930-50
+</div>
+
+
+<div id="footer_img"><img
+        src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" />
+</div>
+<div style="height: 50px;  "></div>
+<script src="./Scripts/index.js"></script>
+
+
+
+
+
+
+
+
+
   </body>
 </html>

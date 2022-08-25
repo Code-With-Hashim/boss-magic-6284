@@ -76,3 +76,38 @@ function myFunction() {
       }
       
       getcountrycode();
+
+
+getcountrycode();
+//   To Get the Data of the GauravDiv6 it ends here
+
+var count = 1;
+function plus() {
+  var countEl = document.getElementById("count");
+  count++;
+  countEl.value = count;
+}
+
+function minus() {
+  var countEl = document.getElementById("count");
+  if (count > 1) {
+    count--;
+    countEl.value = count;
+  }
+}
+
+//Gaurav's JS
+var coll = document.getElementsByClassName("Gaurav_collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}

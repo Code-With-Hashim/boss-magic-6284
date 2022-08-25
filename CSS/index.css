@@ -1,21 +1,16 @@
-
 /*----------------------  Home Page Top Search Data CSS Start---------------------*/
 
+/* Here all the General Codes Will be Return Here  */
 
-
-
-
- /* Here all the General Codes Will be Return Here  */
-
- body{
-    background-color: rgba(237,237,237,255);
-}
-.clear{
+body {
+    background-color: rgba(237, 237, 237, 255);
+  }
+  .clear {
     clear: both;
-}
-/* From Here the Code for Id= navbar is  Started */
-
-.navbar {
+  }
+  /* From Here the Code for Id= navbar is  Started */
+  
+  .navbar {
     height: 60px;
     background-color: #0a438b;
     text-decoration: none;
@@ -23,29 +18,25 @@
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
-
+  
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template: "box1 box2 box3 box4 box5 box6 box7 ";
-
-}
-
-.navLogo {
+  }
+  
+  .navLogo {
     grid-area: box1;
     margin-top: 0px;
     margin-left: 30px;
-    
-
-}
-.rightNav{
+  }
+  .rightNav {
     display: flex;
     margin-left: 800px;
-}
-
-
-.navDropbtn {
-    background-color:transparent;
+  }
+  
+  .navDropbtn {
+    background-color: transparent;
     color: white;
     border-color: #0a438b;
     padding: 16px;
@@ -53,18 +44,15 @@
     border: none;
     border: none;
     text-decoration: none;
-
-}
-
-
-
-.navDropdown {
+  }
+  
+  .navDropdown {
     grid-area: box2;
     position: relative;
     display: inline-block;
-}
-
-.navDropdown_cont {
+  }
+  
+  .navDropdown_cont {
     display: none;
     position: absolute;
     background-color: white;
@@ -72,45 +60,34 @@
     -webkit-box-shadow: 0 0 10px gray;
     box-shadow: 0 0 10px gray;
     border-radius: 10px;
-
-}
-
-.navDropdown_cont a {
+  }
+  
+  .navDropdown_cont a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
-
-
-.navShow {
+  }
+  
+  .navShow {
     display: block;
-}
-
-
-
-
-
-
-.signinBtn {
-    background-color:transparent;
+  }
+  
+  .signinBtn {
+    background-color: transparent;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     border: none;
-}
-
-
-
-.Signin {
+  }
+  
+  .Signin {
     position: relative;
     grid-area: box7;
-    
-
-}
-
-.Signin-content {
+  }
+  
+  .Signin-content {
     display: none;
     position: absolute;
     background-color: white;
@@ -120,17 +97,16 @@
     border-radius: 10px;
     left: auto !important;
     right: 0 !important;
-}
-
-.Signin-content a {
+  }
+  
+  .Signin-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-
-}
-
-.go_to_signin {
+  }
+  
+  .go_to_signin {
     height: 20px;
     width: 250px;
     background-color: #0d5ab9;
@@ -138,40 +114,39 @@
     margin: auto;
     border-radius: 10px;
     font-size: 16px;
-}
-
-#color_white {
+  }
+  
+  #color_white {
     color: white;
     text-align: center;
-}
-
-#color_blue {
+  }
+  
+  #color_blue {
     color: #0d5ab9;
-}
-
-.go_to_create_account {
+  }
+  
+  .go_to_create_account {
     text-align: center;
-}
-
-.go_to_signin:hover {
+  }
+  
+  .go_to_signin:hover {
     background-color: #466ea0;
-
-}
-
-.h4_margin,
-.a_margin {
+  }
+  
+  .h4_margin,
+  .a_margin {
     margin: 10px;
     margin-left: 35px;
-}
-
-.signinShow {
+  }
+  
+  .signinShow {
     display: block;
-}
-
-/* From Here the Code for Id= navbar is  Ended */
-/* From Here the Code for Div Below Navbar is Started and Made By Prasad */
-
-.SearchBar {
+  }
+  
+  /* From Here the Code for Id= navbar is  Ended */
+  /* From Here the Code for Div Below Navbar is Started and Made By Prasad */
+  
+  .SearchBar {
     background-image: url("https://i.ibb.co/tm7CYyF/background.jpg");
     border: 1px solid white;
     background-repeat: no-repeat;
@@ -179,9 +154,8 @@
     height: 500px;
     width: 100%;
   }
-
-
-.SearchFront {
+  
+  .SearchFront {
     width: 90%;
     height: 400px;
     margin: 5%;
@@ -189,71 +163,64 @@
     border-radius: 10px;
     box-shadow: 0 0 4px rgb(255, 255, 255);
     border-radius: 10px;
-
+  
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template: "box1 box2 box3 box4";
-}
-
-#hotels {
+  }
+  
+  #hotels {
     height: 100px;
     background-color: violet;
     border-radius: 10px;
-
-}
-
-
-.btn1,
-.btn2,
-.btn3,
-.btn4 {
-
+  }
+  
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4 {
     margin: 10px;
     background-color: white;
     border-radius: 10px;
     border: 1px solid gray;
-}
-
-input:focus {
+  }
+  
+  input:focus {
     outline-color: #0d5ab9;
-}
-button:focus {
+  }
+  button:focus {
     outline-color: #0d5ab9;
-}
-
-
-.btn1 {
+  }
+  
+  .btn1 {
     height: 40px;
     width: 30%;
     grid-area: box1;
     margin: 1.5%;
-
-}
-
-.btn2 {
+  }
+  
+  .btn2 {
     height: 40px;
     width: 17%;
     grid-area: box2;
     margin: 1.5%;
-}
-
-.btn3 {
+  }
+  
+  .btn3 {
     height: 40px;
     width: 17%;
     grid-area: box3;
     margin: 1.5%;
-
-}
-
-.btn4 {
+  }
+  
+  .btn4 {
     height: 40px;
     width: 19%;
     grid-area: box4;
     margin: 1.5%;
-
-}
-
-.search {
+  }
+  
+  .search {
     display: block;
     border-radius: 10px;
     color: white;
@@ -262,28 +229,24 @@ button:focus {
     width: 150px;
     background-color: #0d5ab9;
     margin-top: 20px;
-}
-
-.search:hover,
-.checkbox2:hover {
+  }
+  
+  .search:hover,
+  .checkbox2:hover {
     background-color: #466ea0;
-
-}
-
-.checkbox1,
-.checkbox2 {
+  }
+  
+  .checkbox1,
+  .checkbox2 {
     margin: 14px;
-}
-
-
-
-
-.hotels,
-.flights,
-.cars,
-.packages,
-.things_to_do,
-.cruises {
+  }
+  
+  .hotels,
+  .flights,
+  .cars,
+  .packages,
+  .things_to_do,
+  .cruises {
     border: 0.2px solid rgb(147, 150, 153);
     float: left;
     height: 60px;
@@ -291,402 +254,403 @@ button:focus {
     margin: 1.7%;
     text-align: center;
     border: none;
-}
-
-.sub_cont {
+  }
+  
+  .sub_cont {
     height: 95px;
     width: 90%;
     margin: auto;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-evenly;
-}
-
-.sub_cont_imgs {
+  }
+  
+  .sub_cont_imgs {
     height: 40%;
     width: 25%;
-
-}
-.searchToDo{
-background-color: white;
-margin-top: 30px;
-border: none;
-font-size: 20px;
-}
-
-.searchHotel{
+  }
+  .searchToDo {
     background-color: white;
     margin-top: 30px;
     border: none;
     font-size: 20px;
-}
-.searchHotel:hover,
-.sub_cont_para:hover,
-.seachFlight:hover,
-.searchCar:hover,
-.searchPackages:hover,
-.searchToDo:hover,
-.searchCruise:hover{
+  }
+  
+  .searchHotel {
+    background-color: white;
+    margin-top: 30px;
+    border: none;
+    font-size: 20px;
+  }
+  .searchHotel:hover,
+  .sub_cont_para:hover,
+  .seachFlight:hover,
+  .searchCar:hover,
+  .searchPackages:hover,
+  .searchToDo:hover,
+  .searchCruise:hover {
     background-color: rgb(199, 196, 196);
-}
-
-.sub_cont_para {
+  }
+  
+  .sub_cont_para {
     font-size: 20px;
     text-align: center;
     margin-top: 0px;
     background-color: white;
-}
-
-.seachFlight{
+  }
+  
+  .seachFlight {
     background-color: white;
     margin-top: 30px;
     border: none;
     font-size: 20px;
-}
-.searchCar{
+  }
+  .searchCar {
     background-color: white;
     margin-top: 30px;
     border: none;
     font-size: 20px;
-}
-
-.searchPackages{
+  }
+  
+  .searchPackages {
     background-color: white;
     margin-top: 30px;
     border: none;
     font-size: 20px;
-}
-
-.searchCruise{
+  }
+  
+  .searchCruise {
     background-color: white;
     margin-top: 30px;
     border: none;
     font-size: 20px;
-}
-
-.hr {
+  }
+  
+  .hr {
     height: 1px;
     width: 90%;
     background-color: rgb(160, 160, 160);
     margin: auto;
-}
-
-.line_hover:hover{
+  }
+  
+  .line_hover:hover {
     background-color: #4c78ad;
-}
-.search_hotels_size{
+  }
+  .search_hotels_size {
     font-size: 30px;
-}
+  }
   /* From here the Code for Div Below Navbar made By Prasad is Ended */
- /* From Here the Code for Id=Gauravdiv1 is Started */
-#GauravDiv1{
+  /* From Here the Code for Id=Gauravdiv1 is Started */
+  #GauravDiv1 {
     width: 99%;
     display: flex;
     margin: 4% 0% 4% 0%;
-}
-
-#GauravDiv1 > div{
+  }
+  
+  #GauravDiv1 > div {
     flex-basis: 30%;
-    background-color: rgba(255,255,255,255);
+    background-color: rgba(255, 255, 255, 255);
     border-radius: 20px;
     padding-bottom: 2%;
-}
-#GauravDiv1Main1{
+  }
+  #GauravDiv1Main1 {
     margin-left: 3%;
-}
-#GauravDiv1 >#GauravDiv1Main2,#GauravDiv1Main3{
+  }
+  #GauravDiv1 > #GauravDiv1Main2,
+  #GauravDiv1Main3 {
     margin-left: 2%;
-}
-.GauravDiv1img{
+  }
+  .GauravDiv1img {
     width: 100%;
     height: 80%;
-    border-top-right-radius:20px;
-border-top-left-radius: 20px;
-
-}
-.GauravDiv1para{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .GauravDiv1para {
     color: #505c66;
-    font-family: "Segoe UI","Helvetica Neue", Arial, sans-serif;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     font-size: 1vw;
     padding: 0% 2% 0% 5%;
     margin: 2% 0% 0% 0%;
-}
-
-/* From Here the Code for Id=Gauravdiv1 is Ending */
-/* From Here the Code for Id=Gauravdiv2 is Started */
-#GauravDiv2h2{
-  margin: 0% 0% 0% 3%;
-  font-size: 2.5vw;  
-  font-weight: bolder;
-  color: #505c66;
-}
-#GauravDiv2{
+  }
+  
+  /* From Here the Code for Id=Gauravdiv1 is Ending */
+  /* From Here the Code for Id=Gauravdiv2 is Started */
+  #GauravDiv2h2 {
+    margin: 0% 0% 0% 3%;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    color: #505c66;
+  }
+  #GauravDiv2 {
     width: 94%;
     display: flex;
     margin: 1% 3% 0% 3%;
     height: 300px;
-}
-#GauravDiv2Main1{
+  }
+  #GauravDiv2Main1 {
     flex-basis: 69%;
-    background-color: rgba(255,255,255,255);
+    background-color: rgba(255, 255, 255, 255);
     border-radius: 20px;
-}
-#GauravDiv2main1img{
-    height: 75%;
+  }
+  #GauravDiv2main1img {
+    height: 70%;
     width: 100%;
-    border-top-right-radius:20px;
+    border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-}
-#GauravDiv2Main1H3{
+  }
+  #GauravDiv2Main1H3 {
     margin: 1% 0% 0% 2%;
     color: #505c66;
-}
-#GauravDiv2Main1Para{
+  }
+  #GauravDiv2Main1Para {
     margin: 1% 0% 0% 2%;
     color: #505c66;
-}
-#GauravDiv2Main2{
+  }
+  #GauravDiv2Main2 {
     flex-basis: 30%;
     margin-left: 1%;
     display: flex;
     flex-direction: column;
-}
-#GauravDiv2Main2Div1{
+  }
+  #GauravDiv2Main2Div1 {
     flex-basis: 48%;
-    background-color: rgba(255,255,255,255);
+    background-color: rgba(255, 255, 255, 255);
     border-radius: 10px;
     display: flex;
-}
-#GauravDiv2Main2Div2{
+  }
+  #GauravDiv2Main2Div2 {
     margin-top: 4%;
     flex-basis: 48%;
-    background-color: rgba(255,255,255,255);
+    background-color: rgba(255, 255, 255, 255);
     border-radius: 10px;
     display: flex;
-}
-.smallDiv1{
+  }
+  .smallDiv1 {
     flex-basis: 30%;
-}
-.smallDiv1 > img{
+  }
+  .smallDiv1 > img {
     height: 100%;
     width: 100%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-}
-.smallDiv2{
+  }
+  .smallDiv2 {
     flex-basis: 70%;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-}
-.smallDiv2 > p{
+  }
+  .smallDiv2 > p {
     font-size: 1.3vw;
     margin: 3% 0% 0% 5%;
-}
-.smallDiv2 > h3{
+  }
+  .smallDiv2 > h3 {
     font-size: 1.5vw;
     margin: 16% 0% 0% 5%;
     font-weight: bold;
     color: #505c66;
-}
-
-/* From Here the Code for Id=Gauravdiv2 is Ending */
-/* From Here the Code for Id=Gauravdiv3 is Started */
-#GauravDiv3h2{
-    margin: 6% 0% 0% 3%;
-    font-size: 2.5vw;  
+  }
+  
+  /* From Here the Code for Id=Gauravdiv2 is Ending */
+  /* From Here the Code for Id=Gauravdiv3 is Started */
+  #GauravDiv3h2 {
+    margin: 7% 0% 0% 3%;
+    font-size: 2.5vw;
     font-weight: bolder;
     color: #505c66;
   }
-#GauravDiv3{
+  #GauravDiv3 {
     width: 94%;
     margin: 1% 3% 0% 3%;
     height: 250px;
-    background-image: url("https://i.postimg.cc/y8qjSsG4/Gaurav-Div3-1.jpg");
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/08/TVLY_Storefront_Family_imgB_1200x674_20211104.jpg");
     background-size: cover;
     border-radius: 10px;
-}
-#GauravDiv3H2{
-color: #fff;
-text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
-  padding: 15% 0% 0% 2%;
-  margin: 0% 0% 0% 0%;
-  font-weight: bolder;
-  z-index: 100;
-}
-#GauravDiv3para{
+  }
+  #GauravDiv3H2 {
+    color: #fff;
+    text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
+    padding: 15% 0% 0% 2%;
+    margin: 0% 0% 0% 0%;
+    font-weight: bolder;
+    z-index: 100;
+  }
+  #GauravDiv3para {
     color: #fff;
     text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
     padding: 0% 0% 0% 2%;
     margin: -1% 0% 0% 0%;
     font-weight: bolder;
-}
-/* From Here the Code for Id=Gauravdiv3 is Ending */
-/* From Here the Code for Id=corona notification is Started */
-
-#coronaNotification{
+  }
+  /* From Here the Code for Id=Gauravdiv3 is Ending */
+  /* From Here the Code for Id=corona notification is Started */
+  
+  #coronaNotification {
     width: 94%;
     margin: 5% 3% 0% 3%;
     height: 100px;
     background-color: #fff;
     border: 1px solid black;
     border-radius: 5px;
-}
-#coronaNotification > svg{
+  }
+  #coronaNotification > svg {
     height: 40%;
     width: 6%;
     float: left;
     margin: 2% 0% 2% 1%;
     background: #dce1e6;
     border-radius: 100px;
-}
-#coronaNotification > div > h4{
+  }
+  #coronaNotification > div > h4 {
     margin: 1% 0% 0% 9%;
-}
-#coronaNotification > div > p{
+  }
+  #coronaNotification > div > p {
     margin: 0% 0% 0% 9%;
     color: #505c66;
-}
-#coronaNotification > div > a{
+  }
+  #coronaNotification > div > a {
     margin: 0% 0% 0% 2%;
     padding-top: 0%;
-   text-decoration: none;
-}
-/* From Here the Code for Id=coronaNotification is Ending */
-/* From Here the Code for Id= is Started */
-#GauravDiv5h2{
+    text-decoration: none;
+  }
+  /* From Here the Code for Id=coronaNotification is Ending */
+  /* From Here the Code for Id= is Started */
+  #GauravDiv5h2 {
     margin: 4% 0% 0% 3%;
-    font-size: 2.5vw;  
+    font-size: 2.5vw;
     font-weight: bolder;
     color: #505c66;
-}
-#GauravDiv5{
+  }
+  #GauravDiv5 {
     width: 94%;
     margin: 1% 3% 0% 3%;
     height: 200px;
     display: flex;
-}
-#GauravDiv5Div1{
+  }
+  #GauravDiv5Div1 {
     flex-basis: 32%;
-    background-image: url("https://i.postimg.cc/5yhBvSnq/Gaurav-Div5-Div1.png");
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/08/TVLY_Storefront_Family_imgB_1200x674_20211104.jpg");
     background-size: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-}
-#GauravDiv5Div2{
+  }
+  #GauravDiv5Div2 {
     flex-basis: 32%;
     background-image: url("https://i.postimg.cc/ry3CvqM0/Gaurav-Div5-Div2.png");
     background-size: cover;
     margin-left: 2%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-}
-#GauravDiv5Div3{
+  }
+  #GauravDiv5Div3 {
     flex-basis: 32%;
     background-image: url("https://i.postimg.cc/XJDcNb5P/Gaurav-Div5-Div3.jpg");
     background-size: cover;
     margin-left: 2%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-}
-.GauravDiv5h3{
+  }
+  .GauravDiv5h3 {
     color: #fff;
     font-size: 1.5vw;
     text-shadow: 0 0px 4px rgb(17 21 26 / 100%);
     margin: 45% 0% 0% 4%;
     font-weight: bolder;
-}
-/*From Here the Code for Id=GauravDiv5 is Ending */
-/* From Here the Code for Id=GauravDiv56 is Started */
-#GauravDiv6{
+  }
+  /*From Here the Code for Id=GauravDiv5 is Ending */
+  /* From Here the Code for Id=GauravDiv56 is Started */
+  #GauravDiv6 {
     width: 94%;
     margin: 8% 3% 0% 3%;
     height: 290px;
     display: flex;
     border-radius: 20px;
-}
-#GauravDiv6Main1{
+  }
+  #GauravDiv6Main1 {
+    display: block;
     flex-basis: 35%;
-    background-image: url("https://i.postimg.cc/8cJdj0Bz/pooran-Div6-Main1img.jpg");
     background-size: cover;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-}
-#GauravDiv6Main2{
+  }
+  #xyz{
+      width: 20%;
+  }
+  #GauravDiv6Main2 {
     flex-basis: 65%;
     display: flex;
-    background-color: rgba(255,255,255,255);
+    background-color: rgba(255, 255, 255, 255);
     border-top-right-radius: 20px;
-border-bottom-right-radius: 20px;
-}
-#GauravDiv6Main2Div1{
- flex-basis: 75%;
-
-}
-#GauravDiv6Main2Div2{
-flex-basis: 25%;
-}
-#getlinkh2{
+    border-bottom-right-radius: 20px;
+  }
+  #GauravDiv6Main2Div1 {
+    flex-basis: 75%;
+  }
+  #GauravDiv6Main2Div2 {
+    flex-basis: 25%;
+  }
+  #getlinkh2 {
     font-size: 2.3vw;
     font-weight: bold;
     margin: 2% 0% 0% 4%;
-}
-#getlinkul{
+  }
+  #getlinkul {
     margin-top: 0%;
-}
-#getlinkul > li{
+  }
+  #getlinkul > li {
     margin: 1% 0% 0% 1%;
     font-size: 1.3vw;
-}
-#getlinkh3{
+  }
+  #getlinkh3 {
     font-size: 2vw;
     margin: 0% 0% 3% 4%;
-}
-#getlinkpara{
+  }
+  #getlinkpara {
     color: #505c66;
     font-size: 1vw;
     margin: 2% 10% 0% 5%;
-}
-#getlinkofwebsite{
+  }
+  #getlinkofwebsite {
     width: 100%;
     height: 20%;
     display: flex;
-}
-#getlinkofwebsite > div{
+  }
+  #getlinkofwebsite > div {
     flex-basis: 30%;
     border: 1px solid black;
     border-radius: 10px;
     margin-left: 2%;
-}
-#country{
+  }
+  #country {
     padding: 1% 0% 0% 0%;
-}
-#country > label{
+  }
+  #country > label {
     margin-left: 10%;
     font-size: 1.2vw;
-}
-#countrycode{
+  }
+  #countrycode {
     padding-right: 15%;
     font-size: 1.1vw;
     margin-top: 2%;
     margin-left: 10%;
     border: 0px solid white;
     outline: none;
-}
-#phone > label{
+  }
+  #phone > label {
     margin-left: 10%;
-    font-size: 1.2vw;
+    font-size: 20px;
     margin-top: 2%;
-}
-#phonenumber{
+  }
+  #phonenumber {
     border: 0px solid white;
     padding: 10% 0% 0% 0%;
     margin: 0% 0% 0% 0%;
     outline: none;
-}
-#getlinkbtn{
+  }
+  #getlinkbtn {
     background-color: #0d5ab9;
-}
-#getlinkbtnmain{
+  }
+  #getlinkbtnmain {
     border: none;
     background-color: #0d5ab9;
     color: white;
@@ -694,32 +658,24 @@ flex-basis: 25%;
     margin: 10% 0% 0% 18%;
     border-radius: 10px;
     outline: none;
-}
-#Qrimg{
+  }
+  #Qrimg {
     width: 80%;
     height: 50%;
     margin: 8% 0% 0% 10%;
-}
-#GauravDiv6Main2Div2 > h4{
+  }
+  #GauravDiv6Main2Div2 > h4 {
     margin: -5% 0% 0% 20%;
     font-size: 1.2vw;
     font-weight: bold;
-}
-/* From Here the Code for Id=GauravDiv56 is Ended */
-
-
- 
-      
-          /* Code for Media Screen is Here */
-
-    
-
-
-/*---------------------- On click Card Open ----------------------*/
-
-
-
-.btncontent {
+  }
+  /* From Here the Code for Id=GauravDiv56 is Ended */
+  
+  /* Code for Media Screen is Here */
+  
+  /*---------------------- On click Card Open ----------------------*/
+  
+  .btncontent {
     display: none;
     position: absolute;
     background-color: white;
@@ -727,330 +683,332 @@ flex-basis: 25%;
     -webkit-box-shadow: 0 0 10px gray;
     box-shadow: 0 0 10px gray;
     border-radius: 10px;
-
-}
-
-.btncontent a{
+  }
+  
+  .btncontent a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-
-}
-
-
-.btn1_Show,.btn4_Show {
+  }
+  
+  .btn1_Show,
+  .btn4_Show {
     display: block;
-}
-
-
-.card1_search{
-        height: 40px;
-        width: 250px;
-        text-align: center;
-        margin: auto;
-        border-radius: 10px;
-        font-size: 16px;
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-
-    }
-
-
-
-    
-    .btn4_content {
-        display: none;
-        position: absolute;
-        background-color: white;
-        width: 320px;
-        -webkit-box-shadow: 0 0 10px gray;
-        box-shadow: 0 0 10px gray;
-        border-radius: 10px;
-        left: auto !important;
-        right: 90px !important;
-    }
-    
-    .btn4_content a{
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    
-    }
-    
-    
-    .btn4_Show {
-        display: block;
-    }
-    
-
-/*----------------------  Home Page Top Search Data CSS End---------------------*/
-@media screen and (max-width: 768px) {
+  }
+  
+  .card1_search {
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .btn4_content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 320px;
+    -webkit-box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    left: auto !important;
+    right: 90px !important;
+  }
+  
+  .btn4_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .btn4_Show {
+    display: block;
+  }
+  
+  /*----------------------  Home Page Top Search Data CSS End---------------------*/
+  @media screen and (max-width: 768px) {
     .SearchFront {
-        grid-template: "box1"
-            "box2 box3"
-            "box4";
-        height: 450px;
+      grid-template:
+        "box1"
+        "box2 box3"
+        "box4";
+      height: 450px;
     }
-
+  
     .btn1 {
-
-        height: 40px;
-        width: 90%;
-        display: block;
-        margin: 2% 5%;
+      height: 40px;
+      width: 90%;
+      display: block;
+      margin: 2% 5%;
     }
-
+  
     .btn2 {
-        height: 40px;
-        width: 42%;
-        margin-left: 5%;
-
+      height: 40px;
+      width: 42%;
+      margin-left: 5%;
     }
-
+  
     .btn3 {
-        height: 40px;
-        width: 43%;
-
+      height: 40px;
+      width: 43%;
     }
-
+  
     .btn4 {
-        height: 40px;
-        width: 90%;
-        margin: 2% 5%;
+      height: 40px;
+      width: 90%;
+      margin: 2% 5%;
     }
-
+  
     .sub_cont_imgs {
-        height: 40%;
-        width: 35%;
+      height: 40%;
+      width: 35%;
     }
-
+  
     .sub_cont_para {
-        font-size: 2.2vw;
+      font-size: 2.2vw;
     }
-
+  
     .hotels,
     .flights,
     .cars,
     .packages,
     .things_to_do,
     .cruises {
-        text-align: center;
-        margin-bottom: 30px;
-        width:13%;
+      text-align: center;
+      margin-bottom: 30px;
+      width: 13%;
     }
-
+  
     .hr {
-        height: 1px;
-        width: 90%;
-        background-color: rgb(160, 160, 160);
-
-        margin: auto;
+      height: 1px;
+      width: 90%;
+      background-color: rgb(160, 160, 160);
+  
+      margin: auto;
     }
-
-   #GauravDiv1{
-       flex-direction: column;
-   }
-   #GauravDiv1 > div{
-    margin-top: 20px;
-   }
-   .GauravDiv1img{
-       height: 150px;
-   }
-   .GauravDiv1para{
-       font-size: 2vw;
-   }
-   #GauravDiv2{
-       flex-direction: column;
-       clear: both;
-       height: 600px;
-   }
-   #GauravDiv2main1img{
-       height: 80%;
-   }
-   #GauravDiv2h2 {
-    margin: 0% 0% -2% 3%;
-    font-size: 3.5vw;
-   }
-   #GauravDiv2 > div{
-       margin-top: 20px;
-   }
-   #GauravDiv2Main1H3{
-       font-size: 2.5vw;
-   }
-   #GauravDiv2Main1Para{
-       font-size: 2vw;
-   }
-   #GauravDiv2Main2Div1{
-       height: 120px;
-   }
-   #GauravDiv2Main2Div2{
+    /* .featuredOfferDiv>.featuredOfferImg{
+      height: 0px;
+      width: 100%;
+  } */
+    #GauravDiv1 {
+      flex-direction: column;
+    }
+    #GauravDiv1 > div {
+      margin-top: 20px;
+    }
+    .GauravDiv1img {
+      height: 150px;
+    }
+    .GauravDiv1para {
+      font-size: 2vw;
+    }
+    #GauravDiv2 {
+      flex-direction: column;
+      clear: both;
+      height: 600px;
+    }
+    #GauravDiv2main1img {
+      height: 80%;
+    }
+    #GauravDiv2h2 {
+      margin: 0% 0% -2% 3%;
+      font-size: 3.5vw;
+    }
+    #GauravDiv2 > div {
+      margin-top: 20px;
+    }
+    #GauravDiv2Main1H3 {
+      font-size: 2vw;
+    }
+  }
+  
+  #smallDiv2H3 {
+    font-size: 25px;
+  }
+  #smallDiv2para {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  #smallDiv2H3 {
+    font-size: 25px;
+  }
+  
+  #smallDiv2paraa {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  #GauravDiv2Main1Para {
+    font-size: 1vw;
+  }
+  #GauravDiv2Main2Div1 {
     height: 120px;
-   }
-   .smallDiv2 > h3{
-       font-size: 4vw;
-       margin: 4% 0% 0% 5%;
-   }
-   .smallDiv2 > p {
+  }
+  #GauravDiv2Main2Div2 {
+    height: 120px;
+  }
+  .smallDiv2 > h3 {
+    font-size: 4vw;
+    margin: 4% 0% 0% 5%;
+  }
+  .smallDiv2 > p {
     font-size: 2.5vw;
     margin: 1% 0% 0% 5%;
-   }
-   #GauravDiv3{
-       height: 120px;
-   }
-   #GauravDiv3h2{
-       margin-top: 10%;
-   }
-   #GauravDiv3H2{
+  }
+  #GauravDiv3 {
+    height: 120px;
+  }
+  #GauravDiv3h2 {
+    margin-top: 10%;
+  }
+  #GauravDiv3H2 {
     padding: 6% 0% 0% 2%;
     font-size: 5vw;
-   }
-   #GauravDiv3para{
-       font-size: 3.5vw;
-       margin: -3% 0% 0% 0%;
-   }
-   #GauravDiv3h2{
-       font-size: 4vw;
-   }
-   #GauravDiv5h2{
+  }
+  #GauravDiv3para {
     font-size: 3.5vw;
-   }
-   #GauravDiv5{
-       flex-direction: column;
-       height: 360px;
-   }
-   #GauravDiv5Div1{
-       height: 120px;
-       margin-bottom: 3%;
-   }
-   #GauravDiv5Div2{
+    margin: -3% 0% 0% 0%;
+  }
+  #GauravDiv3h2 {
+    font-size: 4vw;
+  }
+  #GauravDiv5h2 {
+    font-size: 3.5vw;
+  }
+  #GauravDiv5 {
+    flex-direction: column;
+    height: 360px;
+  }
+  #GauravDiv5Div1 {
+    height: 120px;
+    margin-bottom: 3%;
+  }
+  #GauravDiv5Div2 {
     height: 120px;
     margin-left: 0%;
     margin-bottom: 3%;
-   }
-   #GauravDiv5Div3{
+  }
+  #GauravDiv5Div3 {
     height: 120px;
     margin-left: 0%;
-   }
-   .GauravDiv5h3{
+  }
+  .GauravDiv5h3 {
     margin: 13% 0% 0% 4%;
     font-size: 3.5vw;
-   }
-   #GauravDiv6{
-      flex-direction: column;
-      height: 400px;
-   }
-   #GauravDiv6Main1{
-       flex-basis: 60%;
-       background-image: url("./img/GauravDiv6Main1img.jpg");
-       background-size: cover;
-       margin-bottom: 3%;
-   }
-   #GauravDiv6Main2{
-       flex-basis: 60%;
-   }
-   #country{
-       padding: 0%;
-   }
-   #countrycode{
-       padding: 1%;
-   }
-   #getlinkh2 {
-       font-size: 3.5vw;
-   }
-   #getlinkul > li{
-       font-size: 2vw;
-   }
-   #phonenumber{
+  }
+  #GauravDiv6 {
+    flex-direction: column;
+    height: 400px;
+  }
+  #GauravDiv6Main1 {
+    flex-basis: 60%;
+    background-image: url("https://a.travel-assets.com/mad-service/footer/marquee/TVLY_App_Footer_v1.jpg");
+    background-size: cover;
+    margin-bottom: 3%;
+  }
+  #GauravDiv6Main2 {
+    flex-basis: 60%;
+  }
+  #country {
+    padding: 0%;
+  }
+  #countrycode {
+    padding: 1%;
+  }
+  #getlinkh2 {
+    font-size: 3.5vw;
+  }
+  #getlinkul > li {
+    font-size: 2vw;
+  }
+  #phonenumber {
     padding: 0% 0% 0% 0%;
     margin: 0% 0% 0% 0%;
-   }
-   #getlinkofwebsite{
-       height: 25%;
-   }
-   #GauravDiv6Main2Div2 > h4{
-       font-size: 2vw;
-       margin: -5% 0% 0% 17%;
-   }
-   #getlinkbtn {
+  }
+  #getlinkofwebsite {
+    height: 25%;
+  }
+  #GauravDiv6Main2Div2 > h4 {
+    font-size: 2vw;
+    margin: -5% 0% 0% 17%;
+  }
+  #getlinkbtn {
     padding: 1% 0% 0% 2%;
-   }
-   #getlinkpara{
-       font-size: 0.9vw;
-   }
-}
-
-/*Amol's Css*/
-
-#above_footer{
+  }
+  #getlinkpara {
+    font-size: 0.9vw;
+  }
+  
+  /*Gaurav's Css*/
+  
+  #above_footer {
     width: 90vw;
     margin: auto;
     padding: 1%;
     font-size: 40px;
-    
-}
-
-#amol_footer{
+  }
+  
+  #Gaurav_footer {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    column-gap: 1%;                      
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1%;
     row-gap: 5%;
     margin: 1%;
     margin-bottom: 10vh;
     height: 25vh;
     width: 90vw;
     margin: auto;
-    grid-template: "box1 box2"
-                   "box3 box4"
-                   "box5 box6"
-                   "box7 box7";
-}
-#amol_footer>div{
-  
-   
-   padding: 0.5vw;
-   background-color: white;
-   border-radius: 7%;
-   
-}
-#amol_footer_box1{
+    grid-template:
+      "box1 box2"
+      "box3 box4"
+      "box5 box6"
+      "box7 box7";
+  }
+  #Gaurav_footer > div {
+    padding: 0.5vw;
+    background-color: white;
+    border-radius: 7%;
+  }
+  #Gaurav_footer_box1 {
     grid-area: box1;
     width: 43vw;
-}
-
-#amol_footer_box2{
+  }
+  
+  #Gaurav_footer_box2 {
     grid-area: box2;
     width: 43vw;
-}
-#amol_footer_box3{
+  }
+  #Gaurav_footer_box3 {
     grid-area: box3;
     width: 43vw;
-}
-#amol_footer_box4{
+  }
+  #Gaurav_footer_box4 {
     grid-area: box4;
     width: 43vw;
-}
-#amol_footer_box5{
+  }
+  #Gaurav_footer_box5 {
     grid-area: box5;
     width: 43vw;
-}
-#amol_footer_box6{
+  }
+  #Gaurav_footer_box6 {
     grid-area: box6;
     width: 43vw;
-}
-
-#amol_footer_box7{
+  }
+  
+  #Gaurav_footer_box7 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-area: box7;
-    
-}
-
-
+  }
+  
   /* Style the button that is used to open and close the collapsible content */
-.amol_collapsible {
+  .Gaurav_collapsible {
     background-color: white;
     color: black;
     cursor: pointer;
@@ -1063,89 +1021,86 @@ flex-basis: 25%;
     font-weight: bolder;
     font-size: 25px;
     border-radius: 7%;
-    
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .amol_collapsible:hover {
+  .active,
+  .Gaurav_collapsible:hover {
     background-color: #ccc;
   }
   
   /* Style the collapsible content. Note: hidden by default */
-  .amol_content {
+  .Gaurav_content {
     padding: 0 15px;
     display: none;
     overflow: hidden;
     columns: 2;
-    background-color:white;
+    background-color: white;
     font-size: 20px;
-    
-   
   }
-  .active, .amol_content>div>a:hover {
+  .active,
+  .Gaurav_content > div > a:hover {
     text-decoration: underline;
   }
-  .amol_content>div>a{
-      text-decoration: none;
-      padding: 0.5%;
-      color: blue;
-      font-weight: lighter;
-      
+  .Gaurav_content > div > a {
+    text-decoration: none;
+    padding: 0.5%;
+    color: blue;
+    font-weight: lighter;
   }
   
-  #below_footer{
+  #below_footer {
     display: flex;
     flex-direction: row;
     gap: 1vw;
     width: 80vw;
     margin: auto;
     flex-wrap: wrap;
-    flex:8.33%;
+    flex: 8.33%;
     margin-top: 5vh;
     clear: both;
-}
-  
-  
-.active, #below_footer>a:hover {
-    text-decoration: underline;
-    
   }
-
-  #footer_copyright_text{
+  
+  .active,
+  #below_footer > a:hover {
+    text-decoration: underline;
+  }
+  
+  #footer_copyright_text {
     width: 40vw;
     margin: auto;
     margin-top: 5vh;
     text-align: center;
   }
-  #footer_img{
-      width: 10vw;
-      margin: auto;
-      margin-top: 2vh;
+  #footer_img {
+    width: 10vw;
+    margin: auto;
+    margin-top: 2vh;
   }
-  #amol_package_bg{
-      width: 98vw;
-      background-color: white;
-      
+  #Gaurav_package_bg {
+    width: 98vw;
+    background-color: white;
   }
-  #amol_package_search{
-      width: 90vw;
-      margin: auto;
+  #Gaurav_package_search {
+    width: 90vw;
+    margin: auto;
   }
-  #amol_package_buttonBox{
-      display: flex;
-      flex-direction: row;
-      column-gap: 2vw;
+  #Gaurav_package_buttonBox {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
   }
-  #amol_bdiv1, #amol_bdiv2{
-      border: 1px solid #0d5ab9;
-      background-color:#0d5ab9;
-      color: white;
-      padding: 0.7%;
-      border-radius: 25%;
-      font-size: 13px;
-      height: 2vh;
+  #Gaurav_bdiv1,
+  #Gaurav_bdiv2 {
+    border: 1px solid #0d5ab9;
+    background-color: #0d5ab9;
+    color: white;
+    padding: 0.7%;
+    border-radius: 25%;
+    font-size: 13px;
+    height: 2vh;
   }
-  #amol_bdiv3{
+  #Gaurav_bdiv3 {
     border: 1px solid #0d5ab9;
     padding: 0.7%;
     border-radius: 25%;
@@ -1153,82 +1108,81 @@ flex-basis: 25%;
     height: 2vh;
     color: #0d5ab9;
   }
-  #amol_package_inputs{
-      width: 95vw;
-      margin: auto;
-      margin-top: 4vh;
+  #Gaurav_package_inputs {
+    width: 95vw;
+    margin: auto;
+    margin-top: 4vh;
   }
-  #amol_ip1,#amol_ip2{
-      border: 1px solid gray;
-      border-radius: 5%;
-      padding: 1%;
-      width: 27vw;
+  #Gaurav_ip1,
+  #Gaurav_ip2 {
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 1%;
+    width: 27vw;
   }
-  #amol_ip3,#amol_ip4{
+  #Gaurav_ip3,
+  #Gaurav_ip4 {
     border: 1px solid gray;
     border-radius: 5%;
     padding: 1%;
     width: 13vw;
     margin-bottom: 1vh;
   }
-
-  #amol_package_button{
-      height: 7vh;
-      width: 15vw;
-      margin-top: 4vh;
-      border: 1px solid #0d5ab9;
-      background-color:#0d5ab9;
-      color: white;
-      border-radius: 5%;
-      font-size: 18px;
+  
+  #Gaurav_package_button {
+    height: 7vh;
+    width: 15vw;
+    margin-top: 4vh;
+    border: 1px solid #0d5ab9;
+    background-color: #0d5ab9;
+    color: white;
+    border-radius: 5%;
+    font-size: 18px;
   }
-
-  #amol_footer_packages{
+  
+  #Gaurav_footer_packages {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1%;                      
+    column-gap: 1%;
     row-gap: 5%;
     margin: 1%;
     margin-bottom: 10vh;
     height: 25vh;
     width: 90vw;
     margin: auto;
-    
-
   }
- 
   
-
   @media screen and (max-width: 768px) {
     #below_footer {
-    display: flex;
-      
+      display: flex;
+  
       row-gap: 2vh;
       flex-wrap: wrap;
-      flex:50%
+      flex: 50%;
     }
-
-    #amol_footer{
-        display: grid;
-       row-gap: 1vh;
-       margin-bottom: 20vh;
-        grid-template: "box1 "
-                       "box2 "
-                       "box3 "
-                       "box4 "
-                       "box5 "
-                       "box6 "
-                       "box7 ";
+  
+    #Gaurav_footer {
+      display: grid;
+      row-gap: 1vh;
+      margin-bottom: 20vh;
+      grid-template:
+        "box1 "
+        "box2 "
+        "box3 "
+        "box4 "
+        "box5 "
+        "box6 "
+        "box7 ";
     }
-
-    #amol_footer>div{
-        width: 90vw;
+  
+    #Gaurav_footer > div {
+      width: 90vw;
     }
   }
-
-    /* Css for Coronanotification Starts here */
-
-#hotelCoronaNotification{
+  
+  /* Css for Coronanotification Starts here */
+  
+  #hotelCoronaNotification {
     width: 96%;
     margin: 3% 2% 3% 2%;
     border: 1px solid black;
@@ -1236,35 +1190,173 @@ flex-basis: 25%;
     background-color: #505c66;
     border-radius: 10px;
     display: flex;
-  }     
-  #hotelCoronaNotificationDiv1{
+  }
+  #hotelCoronaNotificationDiv1 {
     flex-basis: 5%;
   }
-  #hotelCoronaNotificationDiv2{
+  #hotelCoronaNotificationDiv2 {
     flex-basis: 95%;
   }
-  #alertsvg{
-   height: 30%;
-   width: 40%;
-   margin: 55% 0% 0% 25%;
-   fill: white;
+  #alertsvg {
+    height: 30%;
+    width: 40%;
+    margin: 55% 0% 0% 25%;
+    fill: white;
   }
-  #hotelCoronaNotificationDiv2para{
+  #hotelCoronaNotificationDiv2para {
     color: white;
     font-size: 1.3vw;
   }
-  .hotelCoronaNotificationatag{
+  .hotelCoronaNotificationatag {
     color: white;
     font-size: 1.4vw;
   }
-  #a1{
-   margin-left: 3%;
+  #a1 {
+    margin-left: 3%;
   }
-  #hotelfirsth2{
+  #hotelfirsth2 {
     margin: 0% 0% 0% 2%;
     font-size: 2.3vw;
   }
+  /* Css for Coronanotification Ends here */
+  /* From Here the Code for Id=GauravnewDiv is Starting */
+  #GauravnewDivh2 {
+    margin: 3% 0% 0% 3%;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    color: #505c66;
+  }
+  #GauravnewDiv {
+    width: 94%;
+    margin: 1% 3% 0% 3%;
+    display: flex;
+    height: 180px;
+  }
+  #GauravnewDiv > div {
+    border-radius: 10px;
+  }
+  #GauravnewDiv1 {
+    flex-basis: 15%;
+    background-image: url("https://i.ibb.co/H2zmyTj/slideshowimg1.webp");
+    background-size: cover;
+  }
+  #GauravnewDiv2 {
+    flex-basis: 15%;
+    margin-left: 2%;
+    background-image: url("https://i.ibb.co/pxR9qv8/slideshowimg2.webp");
+    background-size: cover;
+  }
+  #GauravnewDiv3 {
+    flex-basis: 15%;
+    margin-left: 2%;
+    background-image: url("https://i.ibb.co/jyJbgK1/slideshowimg3.jpg");
+    background-size: cover;
+  }
+  #GauravnewDiv4 {
+    flex-basis: 15%;
+    margin-left: 2%;
+    background-image: url("https://i.ibb.co/hgrhcg7/slideshowimg4.webp");
+    background-size: cover;
+  }
+  #GauravnewDiv5 {
+    flex-basis: 15%;
+    margin-left: 2%;
+    background-image: url("https://i.ibb.co/NrQN3VY/slideshowimg5.webp");
+    background-size: cover;
+  }
+  #GauravnewDiv6 {
+    flex-basis: 15%;
+    margin-left: 2%;
+    background-image: url("https://i.ibb.co/mDRVmsF/slideshowimg6.webp");
+    background-size: cover;
+  }
+  #vacation7 {
+      width: 80%;
+      padding: 5% 12% 20px;
+      background-color: rgb(240, 243, 245);
+  }
+  
+  #vacation71 {
+      border: 1px solid grey;
+      background-color: white;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      border-radius: 5px;
+      width: 100%;
+  }
+  
+  #vacation71 img {
+      width: 100%;
+  
+  }
+  
+  #vacation711 {
+      width: 35%
+  }
+  
+  #vacation712 {
+      width: 50%
+  }
+  
+  #vacation713 {
+      width: 15%;
+      text-align: center;
+  }
+  
+  #vacation712>input {
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 10px;
+  }
+  
+  #vacation712>button {
+  
+      background-color: rgb(13, 90, 185);
+      padding: 10px 30px;
+      border: 0px;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
   
   
+  }
   
-
+  #vacation9 {
+      display: flex;
+      padding: 20px 12%;
+      background-color: rgb(240, 243, 245);
+      gap: 5%;
+      align-items: baseline;
+  
+  }
+  
+  #vacation9>div {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  
+  }
+  
+  #vacation9 a {
+      text-decoration: none;
+      font-size: 12px;
+      color: rgb(79, 147, 216);
+  }
+  
+  #vacation9 a:hover {
+      text-decoration: underline;
+  }
+  .h3newDiv {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0px 2px rgb(17 21 26 / 100%);
+    background-color: rgba(17, 21, 26, 0.5);
+    font-size: 1.5vw;
+    margin: 0%;
+    padding: 45% 0% 46% 0%;
+    border-radius: 10px;
+  }
+  
+  /* From Here the Code for Id=GauravnewDiv is Ending */
+  

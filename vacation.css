@@ -1,0 +1,384 @@
+#vacation1 {
+    background-color: rgb(0, 64, 116);
+    display: flex;
+
+    padding: 15px 12%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#vacation12>button,
+#vacation11>button {
+
+    background-color: rgb(0, 64, 116);
+    color: white;
+    text-decoration: none;
+
+    border-color: rgb(0, 64, 116);
+    margin: 10px;
+    padding: 5px;
+    border: 0px;
+    font-weight: bold;
+}
+
+#vacation12>button:hover,
+#vacation11>button:hover {
+
+    background-color: rgb(0, 78, 147);
+    cursor: pointer;
+}
+
+#vacation2 {
+    padding: 3% 12%;
+}
+
+#vacation22 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#vacation221>button {
+
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 5px;
+
+
+}
+
+#vacation222>button {
+
+    background-color: white;
+    border: 0px;
+    color: rgb(23, 97, 188);
+    padding: 5px;
+    margin: 5px;
+
+
+}
+
+#vacation23>input {
+
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#vacation23>input:nth-child(1),
+#vacation23>input:nth-child(2) {
+
+    width: 28%;
+}
+
+#vacation23>input:nth-child(3),
+#vacation23>input:nth-child(4) {
+
+    width: 14%;
+}
+
+#vacation24>button {
+    background-color: rgb(13, 90, 185);
+    padding: 15px 70px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 30px;
+}
+
+#vacation3 {
+
+    background-color: rgb(240, 243, 245);
+    padding: 20px 12%;
+
+}
+
+#vacation31 {
+    display: flex;
+    gap: 20px;
+
+}
+
+#vacation31 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#vacation311 {
+    width: 70%;
+
+    border-radius: 15px;
+    background-color: white;
+}
+
+#vacation32 {
+    width: 30%;
+
+}
+
+#vacation32 img {
+    width: 30%;
+    height: 165px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#vacation321,
+#vacation322 {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+}
+
+#vacation4 {
+
+    background-color: rgb(240, 243, 245);
+    padding: 20px 12%;
+
+}
+
+#vacation41 {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+#vacation41 img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+#vacation41>div {
+
+    width: 33%;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+}
+
+#vacation41 h3 {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    color: white;
+}
+
+
+#vacation5 {
+
+    background-color: rgb(240, 243, 245);
+    padding: 20px 12%;
+
+}
+
+#vacation5 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#vacation51 {
+    position: relative;
+}
+
+#vacation51>h4 {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    color: white;
+
+}
+
+#vacation51>p {
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    color: white;
+}
+
+#vacation6 {
+
+    background-color: rgb(240, 243, 245);
+    padding: 20px 12%;
+
+}
+
+#slide1 {
+
+
+
+    position: relative;
+}
+
+#slide1>button:nth-child(1) {
+
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    background-color: transparent;
+    z-index: 1;
+
+}
+
+#slide1>button:nth-child(2) {
+
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+#slide2 {
+    position: relative;
+    display: flex;
+    gap: 15px;
+}
+
+#slide1>button:hover {
+
+    color: darkblue;
+    border-color: darkblue;
+    font-weight: bold;
+}
+
+
+
+#slide2 img {
+    border-radius: 10px;
+    width: 100%;
+    filter: brightness(40%)
+}
+
+#slide2 h4 {
+    top: 30%;
+    left: 30%;
+    color: white;
+
+}
+
+#slide2 div {
+    width: 100%;
+
+}
+
+#vacation7 {
+
+    padding: 5% 12% 20px;
+    background-color: rgb(240, 243, 245);
+
+}
+
+#vacation71 {
+    border: 1px solid grey;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#vacation71 img {
+    width: 100%;
+
+}
+
+#vacation711 {
+    width: 35%
+}
+
+#vacation712 {
+    width: 50%
+}
+
+#vacation713 {
+    width: 15%;
+    text-align: center;
+}
+
+#vacation712>input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#vacation712>button {
+
+    background-color: rgb(13, 90, 185);
+    padding: 10px 30px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+
+
+}
+
+#vacation8 {
+    padding: 5px 12%;
+    background-color: rgb(240, 243, 245);
+
+}
+
+#vacation81 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#vacation81>button {
+
+    padding: 15px;
+    font-weight: bold;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+
+}
+
+#vacation9 {
+    display: flex;
+    padding: 20px 12%;
+    background-color: rgb(240, 243, 245);
+    gap: 5%;
+    align-items: baseline;
+
+}
+
+#vacation9>div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+#vacation9 a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(79, 147, 216);
+}
+
+#vacation9 a:hover {
+    text-decoration: underline;
+}
+
+#vacation10 {
+    padding: 5px 12%;
+    background-color: rgb(240, 243, 245);
+    text-align: center;
+    font-size: 12px;
+}

@@ -315,20 +315,136 @@ button {
     left: 10rem;
     top: 30rem;
    }
-   .sef>img{
-        width: 90px;
-        height: 90px;
+   .nav {
+    display: none;
    }
-   .second,.third,.five,.six,.seven{
+   .second {
+    width: 100%;
+    height: auto;
+    margin: auto;
+   }
+   .second>h1 {
+    font-size: 2rem;
+    text-align: center;
+   }
+   .sef {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   }
+   .sef h1 {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+   }
+   .ses {
     width: 100%;
    }
-   .forth{
-    height: 150px;
+   .second h2 {
+    text-align: center;
+   }
+   .third {
+    height: auto;
+   }
+
+   .third  h1{
     width: 100%;
+    margin: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 10px;
    }
-   .footer{
-        margin-right: 20%;
+   .forth {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
    }
+   .fof {
+    text-align: center;
+    margin-bottom: 20px;
+    
+   }
+   .fof p {
+    margin-top: -7px;
+   }
+   .fos {
+    padding: 0px 2px 0px 2px;
+    width: 30%;
+    margin: auto;
+    margin-left: 40%;
+   }
+   .five , .six {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   }
+   .five h1 {
+    font-size: 1.5rem;
+   }
+   .five p{
+    font-size: 1rem;
+   }
+
+   .sixx {
+    width: 100%;
+    margin: auto;
+   }
+   .sixx>h1 {
+    font-size: 1.5rem;
+   }
+   .sixx>p {
+    font-size: 1rem;
+   }
+   #main {
+    font-size: 1.1rem;
+   }
+   .sixx h2 {
+    font-size: 1rem;
+   }
+   .seven {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   }
+   .one, .three {
+    margin: auto;
+    
+   }
+   .one h1  {
+    font-size: 1.5rem;
+  
+   }
+   .two,.three  {
+    width: 100%;
+    margin: auto;
+    font-size: 0.6rem;
+   }
+   .twoinner,.threeinner {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 30px;
+   }
+   .four {
+
+    width: 95%;
+    margin: auto;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+   }
+   .footer {
+    margin-top: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+   }
+
+   
+   
+   
+
    
 
 }

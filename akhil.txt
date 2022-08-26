@@ -1,3 +1,24 @@
 name: akhil yadlapalli
 code: fw20_1112
+
+
 day: 2
+works done:
+support.html
+support.css
+support.js
+
+day: 3
+works done:
+vacation.html
+vacation.css
+vacation.js
+sliding animations
+
+day: 4
+works done:
+Attending general meets
+searching databases and api's
+
+
+

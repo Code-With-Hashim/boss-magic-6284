@@ -43,10 +43,10 @@ nav ul li a{
     margin: 1% 35% 1% 7%;
     font-size: 60px;
 }
-.first strong{
+.first>h2{
     color: #57b3fe;
-    margin: 1% 20% 1% 7%;
     font-size: 30px;
+    margin: 2% 1% 10% 7%;
 }
 .second{
     height: 400px;
@@ -240,6 +240,7 @@ nav ul li a{
     top: 2rem;
     z-index: 1;
     border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 #popup>div:nth-child(1) {
     width: 85%;
@@ -270,12 +271,12 @@ nav ul li a{
 }
 .charges {
     display: flex;
-    color: blue;
+    color:#346ca0;
     justify-content: space-between;
 }
 button {
     color: white;
-    background-color: rgb(14, 126, 14);
+    background-color: #689105;
 }
 
 #input>input {
@@ -305,14 +306,29 @@ button {
    .first>p, #strong {
     text-align: center;
    }
-   #strong {
-    color: #0059b7;
+   .first>h2 {
+    color:#57b3fe;
+    margin: 15% 2% 15% 15%;
    }
    #popup {
     position: absolute;
     left: 10rem;
     top: 30rem;
    }
-
+   .sef>img{
+        width: 90px;
+        height: 90px;
+   }
+   .second,.third,.five,.six,.seven{
+    width: 100%;
+   }
+   .forth{
+    height: 150px;
+    width: 100%;
+   }
+   .footer{
+        margin-right: 20%;
+   }
+   
 
 }

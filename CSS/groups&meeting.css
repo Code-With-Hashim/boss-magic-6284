@@ -232,5 +232,87 @@ nav ul li a{
     text-decoration: none;
     color: #0253b7;
 }
+#popup {
+    width: 25rem;
+    height: auto; 
+    position: fixed;
+    left: 70%;
+    top: 2rem;
+    z-index: 1;
+    border-radius: 5px;
+}
+#popup>div:nth-child(1) {
+    width: 85%;
+    margin: auto;
+    margin-top: 1.2rem;
+    
+}
+.mini-pop>div:nth-child(1)>input, #select,button {
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1.5px solid gray    ;
+
+}
+.mini-pop>div:nth-child(2),.charges1{
+    display: flex;
+    
+}
+.mini-pop>div:nth-child(2)>input , .charges1>input, .charges1>select{
+    box-sizing: border-box;
+    width: 48%;
+    padding: 1rem;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1.5px solid gray    ;
+}
+.charges {
+    display: flex;
+    color: blue;
+    justify-content: space-between;
+}
+button {
+    color: white;
+    background-color: rgb(14, 126, 14);
+}
+
+#input>input {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 1rem;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1.5px solid gray;
+}
+
+@media (max-width : 768px) {
+    #popup {
+    position: relative;
+   }
+   .first {
+    height: 65rem;
+
+   }
+   .first>h1 {
+    width: 90%;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: -5rem;
+   }
+   .first>p, #strong {
+    text-align: center;
+   }
+   #strong {
+    color: #0059b7;
+   }
+   #popup {
+    position: absolute;
+    left: 10rem;
+    top: 30rem;
+   }
 
 
+}

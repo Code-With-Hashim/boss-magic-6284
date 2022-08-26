@@ -22,8 +22,10 @@ body {
   z-index: 10;
 }
 
+
 .section-2 {
     width: 50%;
+    height: 22rem;
     padding: 2rem;
   
     margin: auto;
@@ -31,7 +33,10 @@ body {
     margin-bottom: 5rem;
     background-color: white;
     border-radius: 1.2rem;
+    transform: scale(1.1);
+    
   }
+  
   .card-container > .steps {
     width: 80%;
     text-align: left;
@@ -94,6 +99,102 @@ body {
     border: none;
     outline: none;
   }
+/** section-3  Start*/
+.section-3{
+  width: 40%;
+    /* height: 22rem; */
+    padding: 2.5rem;
+  
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    background-color: white;
+    border-radius: 1.2rem;
+    transform: scale(1.1);
+    
+} 
+.section-3 select{
+  width: 82%;
+  margin-bottom: 1rem;
+  height:2.2rem;
+}
+.section-3 input{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+  height:2.2rem;
+
+ 
+}
+.section-3 button{
+  width: 82%;
+  margin: auto;
+  margin-bottom: 1rem;
+  height:2.2rem;
+  border: none;
+  background-color: #5252ff;
+  color: white;
+
+}
+.section-3>.form>div{
+  display:grid;
+  margin: auto;
+  grid-template-columns: repeat(2
+,14rem);
+gap: 1.5rem;
+justify-content:center ;
+align-items: center;
+/* border: 2px solid blue; */
+}
+.form p{
+  font-size: 1rem;
+  color: gray;
+}
+.form h4{
+  font-size: .8rem;
+}
+.form h4,.form h1, .form p{
+  text-align: left;
+  margin-left: 2.1rem;
+}
+.street{
+  border: 2px solid red;
+  transition: 0.3s ease-in-out;
+}
+.unitnum{
+  border: 2px solid red;
+  transition: 0.3s ease-in-out;
+}
+.state, .zip{
+  border: 2px solid red;
+  transition: 0.3s ease-in-out
+}
+#country{
+  border: 2px solid red;
+  transition: 0.3s ease-in-out;
+}
+#city{
+  border: 2px solid red;
+  transition: 0.3s ease-in-out;
+}
+#country:hover,#city:hover  ,.street:hover,.unitnum:hover, .state:hover, .zip:hover{
+  border: 2px solid blue;
+}
+.section-3 button:hover{
+  background-color: blue;
+}
+
+@media (max-width: 980px) and (min-width: 100px) {
+  .section-3>.form>div{
+    display:grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+  justify-content:center ;
+  align-items: center;
+  /* border: 2px solid blue; */
+  }
+}
+/** section-3  End*/
 
 /** section-8  Start*/
 .section-8 {

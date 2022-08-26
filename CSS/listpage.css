@@ -6,6 +6,9 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
+* {
+  font-family: Roboto;
+}
 body {
   font-family: "Nunito", sans-serif;
   margin: 0px;

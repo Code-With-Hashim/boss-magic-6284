@@ -1,7 +1,9 @@
 /*----------------------  Home Page Top Search Data CSS Start---------------------*/
 
 /* Here all the General Codes Will be Return Here  */
-
+* {
+  font-family: Roboto;
+}
 body {
     background-color: rgba(237, 237, 237, 255);
   }
@@ -32,7 +34,8 @@ body {
   }
   .rightNav {
     display: flex;
-    margin-left: 800px;
+    position: relative;
+    left: 28rem;
   }
   
   .navDropbtn {

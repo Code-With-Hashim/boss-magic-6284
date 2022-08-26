@@ -1,3 +1,7 @@
+* {
+    font-family: Roboto;
+}
+
 #support1 {
     background-color: rgb(0, 64, 116);
     display: flex;

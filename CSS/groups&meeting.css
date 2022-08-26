@@ -1,3 +1,6 @@
+* {
+    font-family: Roboto;
+}
 body{
     margin: 0;
 }
@@ -40,10 +43,10 @@ nav ul li a{
     margin: 1% 35% 1% 7%;
     font-size: 60px;
 }
-.first strong{
+.first>h2{
     color: #57b3fe;
-    margin: 1% 20% 1% 7%;
     font-size: 30px;
+    margin: 2% 1% 10% 7%;
 }
 .second{
     height: 400px;
@@ -229,5 +232,219 @@ nav ul li a{
     text-decoration: none;
     color: #0253b7;
 }
+#popup {
+    width: 25rem;
+    height: auto; 
+    position: fixed;
+    left: 70%;
+    top: 2rem;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#popup>div:nth-child(1) {
+    width: 85%;
+    margin: auto;
+    margin-top: 1.2rem;
+    
+}
+.mini-pop>div:nth-child(1)>input, #select,button {
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1.5px solid gray    ;
 
+}
+.mini-pop>div:nth-child(2),.charges1{
+    display: flex;
+    
+}
+.mini-pop>div:nth-child(2)>input , .charges1>input, .charges1>select{
+    box-sizing: border-box;
+    width: 48%;
+    padding: 1rem;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1.5px solid gray    ;
+}
+.charges {
+    display: flex;
+    color:#346ca0;
+    justify-content: space-between;
+}
+button {
+    color: white;
+    background-color: #689105;
+}
 
+#input>input {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 1rem;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1.5px solid gray;
+}
+
+@media (max-width : 768px) {
+    #popup {
+    position: relative;
+   }
+   .first {
+    height: 65rem;
+
+   }
+   .first>h1 {
+    width: 90%;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: -5rem;
+   }
+   .first>p, #strong {
+    text-align: center;
+   }
+   .first>h2 {
+    color:#57b3fe;
+    margin: 15% 2% 15% 15%;
+   }
+   #popup {
+    position: absolute;
+    left: 10rem;
+    top: 30rem;
+   }
+   .nav {
+    display: none;
+   }
+   .second {
+    width: 100%;
+    height: auto;
+    margin: auto;
+   }
+   .second>h1 {
+    font-size: 2rem;
+    text-align: center;
+   }
+   .sef {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   }
+   .sef h1 {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+   }
+   .ses {
+    width: 100%;
+   }
+   .second h2 {
+    text-align: center;
+   }
+   .third {
+    height: auto;
+   }
+
+   .third  h1{
+    width: 100%;
+    margin: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 10px;
+   }
+   .forth {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+   }
+   .fof {
+    text-align: center;
+    margin-bottom: 20px;
+    
+   }
+   .fof p {
+    margin-top: -7px;
+   }
+   .fos {
+    padding: 0px 2px 0px 2px;
+    width: 30%;
+    margin: auto;
+    margin-left: 40%;
+   }
+   .five , .six {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   }
+   .five h1 {
+    font-size: 1.5rem;
+   }
+   .five p{
+    font-size: 1rem;
+   }
+
+   .sixx {
+    width: 100%;
+    margin: auto;
+   }
+   .sixx>h1 {
+    font-size: 1.5rem;
+   }
+   .sixx>p {
+    font-size: 1rem;
+   }
+   #main {
+    font-size: 1.1rem;
+   }
+   .sixx h2 {
+    font-size: 1rem;
+   }
+   .seven {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   }
+   .one, .three {
+    margin: auto;
+    
+   }
+   .one h1  {
+    font-size: 1.5rem;
+  
+   }
+   .two,.three  {
+    width: 100%;
+    margin: auto;
+    font-size: 0.6rem;
+   }
+   .twoinner,.threeinner {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 30px;
+   }
+   .four {
+
+    width: 95%;
+    margin: auto;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+   }
+   .footer {
+    margin-top: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+   }
+
+   
+   
+   
+
+   
+
+}

@@ -1,9 +1,12 @@
 /*----------------------  Home Page Top Search Data CSS Start---------------------*/
 
 /* Here all the General Codes Will be Return Here  */
-
+* {
+  font-family: Roboto;
+}
 body {
     background-color: rgba(237, 237, 237, 255);
+    width: 100%;
   }
   .clear {
     clear: both;
@@ -32,7 +35,8 @@ body {
   }
   .rightNav {
     display: flex;
-    margin-left: 800px;
+    position: relative;
+    left: 28rem;
   }
   
   .navDropbtn {
@@ -56,7 +60,6 @@ body {
     display: none;
     position: absolute;
     background-color: white;
-    width: 400px;
     -webkit-box-shadow: 0 0 10px gray;
     box-shadow: 0 0 10px gray;
     border-radius: 10px;
@@ -733,101 +736,7 @@ body {
   }
   
   /*----------------------  Home Page Top Search Data CSS End---------------------*/
-  @media screen and (max-width: 768px) {
-    .SearchFront {
-      grid-template:
-        "box1"
-        "box2 box3"
-        "box4";
-      height: 450px;
-    }
-  
-    .btn1 {
-      height: 40px;
-      width: 90%;
-      display: block;
-      margin: 2% 5%;
-    }
-  
-    .btn2 {
-      height: 40px;
-      width: 42%;
-      margin-left: 5%;
-    }
-  
-    .btn3 {
-      height: 40px;
-      width: 43%;
-    }
-  
-    .btn4 {
-      height: 40px;
-      width: 90%;
-      margin: 2% 5%;
-    }
-  
-    .sub_cont_imgs {
-      height: 40%;
-      width: 35%;
-    }
-  
-    .sub_cont_para {
-      font-size: 2.2vw;
-    }
-  
-    .hotels,
-    .flights,
-    .cars,
-    .packages,
-    .things_to_do,
-    .cruises {
-      text-align: center;
-      margin-bottom: 30px;
-      width: 13%;
-    }
-  
-    .hr {
-      height: 1px;
-      width: 90%;
-      background-color: rgb(160, 160, 160);
-  
-      margin: auto;
-    }
-    /* .featuredOfferDiv>.featuredOfferImg{
-      height: 0px;
-      width: 100%;
-  } */
-    #GauravDiv1 {
-      flex-direction: column;
-    }
-    #GauravDiv1 > div {
-      margin-top: 20px;
-    }
-    .GauravDiv1img {
-      height: 150px;
-    }
-    .GauravDiv1para {
-      font-size: 2vw;
-    }
-    #GauravDiv2 {
-      flex-direction: column;
-      clear: both;
-      height: 600px;
-    }
-    #GauravDiv2main1img {
-      height: 80%;
-    }
-    #GauravDiv2h2 {
-      margin: 0% 0% -2% 3%;
-      font-size: 3.5vw;
-    }
-    #GauravDiv2 > div {
-      margin-top: 20px;
-    }
-    #GauravDiv2Main1H3 {
-      font-size: 2vw;
-    }
-  }
+ 
   
   #smallDiv2H3 {
     font-size: 25px;
@@ -1164,33 +1073,7 @@ body {
 
 }
   
-  @media screen and (max-width: 768px) {
-    #below_footer {
-      display: flex;
   
-      row-gap: 2vh;
-      flex-wrap: wrap;
-      flex: 50%;
-    }
-  
-    #Gaurav_footer {
-      display: grid;
-      row-gap: 1vh;
-      margin-bottom: 20vh;
-      grid-template:
-        "box1 "
-        "box2 "
-        "box3 "
-        "box4 "
-        "box5 "
-        "box6 "
-        "box7 ";
-    }
-  
-    #Gaurav_footer > div {
-      width: 90vw;
-    }
-  }
   
   /* Css for Coronanotification Starts here */
   
@@ -1369,6 +1252,192 @@ body {
     padding: 45% 0% 46% 0%;
     border-radius: 10px;
   }
+
+  #media {
+    display: flex;
+    display: none;
+    align-items: center;
+    width: 20%;
+    margin-left: 90%;
+    
+  }
+  #media >div {
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  #media>div>img {
+    width: 100%;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+
+  }
+
+  @media (min-width :769px) and (max-width : 980px) {
+    #media {
+      display: flex;
+      align-items: center;
+      width: 20%;
+     margin-left: 100%;
+      
+    }
+    .rightNav {
+      display: none;
+    }
+  }
+
+  @media (min-width: 591px) and (max-width: 768px) {
+    .SearchFront {
+      grid-template:
+        "box1"
+        "box2 box3"
+        "box4";
+      height: 450px;
+    }
+
+    .rightNav {
+      display: none;
+    }
+
+    #media {
+      display: flex;
+      align-items: center;
+      width: 20%;
+      margin-left: 70%;
+      }
+
+  
+    .btn1 {
+      height: 40px;
+      width: 90%;
+      display: block;
+      margin: 2% 5%;
+    }
+  
+    .btn2 {
+      height: 40px;
+      width: 42%;
+      margin-left: 5%;
+    }
+  
+    .btn3 {
+      height: 40px;
+      width: 43%;
+    }
+  
+    .btn4 {
+      height: 40px;
+      width: 90%;
+      margin: 2% 5%;
+    }
+  
+    .sub_cont_imgs {
+      height: 40%;
+      width: 35%;
+    }
+  
+    .sub_cont_para {
+      font-size: 2.2vw;
+    }
+  
+    .hotels,
+    .flights,
+    .cars,
+    .packages,
+    .things_to_do,
+    .cruises {
+      text-align: center;
+      margin-bottom: 30px;
+      width: 13%;
+    }
+  
+    .hr {
+      height: 1px;
+      width: 90%;
+      background-color: rgb(160, 160, 160);
+  
+      margin: auto;
+    }
+    /* .featuredOfferDiv>.featuredOfferImg{
+      height: 0px;
+      width: 100%;
+  } */
+    #GauravDiv1 {
+      flex-direction: column;
+    }
+    #GauravDiv1 > div {
+      margin-top: 20px;
+    }
+    .GauravDiv1img {
+      height: 150px;
+    }
+    .GauravDiv1para {
+      font-size: 2vw;
+    }
+    #GauravDiv2 {
+      flex-direction: column;
+      clear: both;
+      height: 600px;
+    }
+    #GauravDiv2main1img {
+      height: 80%;
+    }
+    #GauravDiv2h2 {
+      margin: 0% 0% -2% 3%;
+      font-size: 3.5vw;
+    }
+    #GauravDiv2 > div {
+      margin-top: 20px;
+    }
+    #GauravDiv2Main1H3 {
+      font-size: 2vw;
+    }
+    .rightNav {
+      display: none;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 590px) {
+    #below_footer {
+      display: flex;
+  
+      row-gap: 2vh;
+      flex-wrap: wrap;
+      flex: 50%;
+    }
+
+    .rightNav {
+      display: none;
+    }
+  
+    #Gaurav_footer {
+      display: grid;
+      row-gap: 1vh;
+      margin-bottom: 20vh;
+      grid-template:
+        "box1 "
+        "box2 "
+        "box3 "
+        "box4 "
+        "box5 "
+        "box6 "
+        "box7 ";
+    }
+  
+    #Gaurav_footer > div {
+      width: 90vw;
+    }
+
+    #media {
+      display: flex;
+      align-items: center;
+      width: 30%;
+      margin-left: 40%;
+      
+    }
+  
+  }
+  
   
   /* From Here the Code for Id=GauravnewDiv is Ending */
   

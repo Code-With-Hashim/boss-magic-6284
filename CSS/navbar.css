@@ -1,3 +1,7 @@
+* {
+    font-family: Roboto;
+}
+
 .navbar {
     height: 60px;
     background-color: #0a438b;

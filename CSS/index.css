@@ -1151,6 +1151,18 @@ body {
     width: 90vw;
     margin: auto;
   }
+
+  #vacation712>a>button {
+
+    background-color: rgb(13, 90, 185);
+    padding: 10px 30px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+
+
+}
   
   @media screen and (max-width: 768px) {
     #below_footer {

@@ -25,7 +25,4 @@ let create = () => {
   }
   localStorage.setItem("userdetails", JSON.stringify(send_data));
   location.href = "login.html";
-
-  //kashim457@gmail.com
-  //kasim123
-};
+}

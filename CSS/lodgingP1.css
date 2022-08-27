@@ -183,8 +183,18 @@ align-items: center;
 .section-3 button:hover{
   background-color: blue;
 }
+@media (max-width: 3000px) and (min-width: 1120px) {
+  .section-3>.form>div{
+    display:grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+  justify-content:center ;
+  align-items: center;
+  /* border: 2px solid blue; */
+  }
 
-@media (max-width: 980px) and (min-width: 100px) {
+}
+@media (max-width: 1200px) and (min-width: 100px) {
   .section-3>.form>div{
     display:grid;
     margin: auto;

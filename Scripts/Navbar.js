@@ -16,24 +16,6 @@ function moreTravel() {
 }
 
 
-function myFunction() {
-    document.getElementById("mySignin").classList.toggle("signinShow");
-    window.onclick = function (event) {
-        if (!event.target.matches('.signinBtn')) {
-            let Signins = document.getElementsByClassName("Signin-content");
-            let i;
-            for (i = 0; i < Signins.length; i++) {
-                let openSignin = Signins[i];
-                if (openSignin.classList.contains('signinShow')) {
-                    openSignin.classList.remove('signinShow');
-                }
-            }
-        }
-    }
-}
-
-
-
 function Open_Btn1_Card1() {
     document.getElementById("openCard").classList.toggle("btn1_Show");
 }

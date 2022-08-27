@@ -188,13 +188,6 @@ body {
     border: 1px solid gray;
   }
   
-  input:focus {
-    outline-color: #0d5ab9;
-  }
-  button:focus {
-    outline-color: #0d5ab9;
-  }
-  
   .btn1 {
     height: 40px;
     width: 30%;
@@ -342,7 +335,7 @@ body {
   .search_hotels_size {
     font-size: 30px;
   }
-  /* From here the Code for Div Below Navbar made By Prasad is Ended */
+  /* From here the Code for Div Below Navbar made By Gaurav is Ended */
   /* From Here the Code for Id=Gauravdiv1 is Started */
   #GauravDiv1 {
     width: 99%;

@@ -10,6 +10,7 @@ font-family: 'Ubuntu', sans-serif; */
   font-family: Roboto;
 }
 body {
+  width: 1400px;
   font-family: "Nunito", sans-serif;
   margin: 0px;
   text-align: center;
@@ -45,7 +46,9 @@ body {
 
   overflow-wrap: break-word;
 }
-
+@media (max-width: 1180px) and (min-width: 850px) {
+  
+}
 @media (max-width: 1180px) and (min-width: 850px) {
   .section-2 > .travalocity-list {
     width: 54%;
@@ -109,6 +112,7 @@ body {
 }
 .cards > .card-1 {
   width: 100%;
+  margin: auto;
   height: 6em;
   border: 2px solid rgb(77, 77, 255);
   display: flex;
@@ -129,11 +133,86 @@ body {
   text-decoration: none;
   color: black;
 }
-.section-3 .card-1:hover{
+/* .section-3 .card-1:hover{
   transform: scale(1.1);
  
+} */
+
+@media (max-width: 3400px) and (min-width: 2000px) {
+
+.section-3 {
+    width: 30%;
+    position: absolute;
+    top: 16rem;
+    left: 60rem;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 28% 28%;
+    justify-content: space-around;
+    gap: 4em;
+  }
+  .cards > .card-1 {
+    width: 50%;
+    height: 8em;
+    margin: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .cards > .card-1 > .content {
+    text-align: center;
+  }
+  .section-3 > .card-container > h2 {
+    color: blue;
+    text-align: left;
+    margin-left: 12px;
+  }
+
 }
-@media (max-width: 1400px) and (min-width: 1180px) {
+@media (max-width: 2000px) and (min-width: 1400px) {
+
+  .section-3 {
+      width: 40%;
+      position: absolute;
+      top: 16rem;
+      left: 50rem;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: 28% 28%;
+      justify-content: space-around;
+      gap: 4em;
+    }
+    .cards > .card-1 {
+      width: 50%;
+      height: 8em;
+      margin: auto;
+      display: flex;
+      /* flex-wrap: wrap; */
+  
+      flex-direction: column;
+      justify-content: center;
+      padding: 70px;
+      align-items: center;
+      border-radius: 10px;
+    }
+    .cards > .card-1 > .content {
+      text-align: center;
+    }
+    .section-3 > .card-container > h2 {
+      color: blue;
+      text-align: left;
+      margin-left: 12px;
+    }
+  
+  }
+@media (max-width: 1400px) and (min-width: 1220px) {
   .section-3 {
     width: 40%;
     position: absolute;
@@ -142,11 +221,12 @@ body {
   }
   .cards {
     display: grid;
+    margin: auto;
     grid-template-columns: 1fr 1fr;
     gap: 4em;
   }
   .cards > .card-1 {
-    width: 50%;
+    width: 30%;
     height: 8em;
     margin: auto;
     display: flex;

@@ -20,9 +20,14 @@ body {
 .header {
   position: fixed;
   background-color: white;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   top: 0;
   left: 0;
+  color: blue;
   z-index: 10;
 }
 .section-2 {
@@ -46,24 +51,33 @@ body {
 
   overflow-wrap: break-word;
 }
-@media (max-width: 1180px) and (min-width: 850px) {
-  
+@media (max-width: 3000px) and (min-width: 1200px) {
+  .section-2 > .travalocity-list {
+    width: 34%;
+    position: absolute;
+    left: 48rem;
+    top: 6rem;
+    text-align: left;
+    z-index: 1;
+  }
 }
-@media (max-width: 1180px) and (min-width: 850px) {
+@media (max-width: 1180px) and (min-width: 800px) {
   .section-2 > .travalocity-list {
     width: 54%;
     position: absolute;
-    left: 36rem;
+    text-align: left;
+    left: 46rem;
     top: 12rem;
     z-index: 1;
   }
 }
 
-@media (max-width: 850px) and (min-width: 701px) {
+@media (max-width: 800px) and (min-width: 701px) {
   .section-2 > .travalocity-list {
     width: 54%;
     position: absolute;
-    left: 28rem;
+    text-align: left;
+    left: 48rem;
     top: 8rem;
     z-index: 1;
   }

@@ -1,35 +1,37 @@
-let sinak = JSON.parse(localStorage.getItem("userdetails")) || undefined
+let sinak = JSON.parse(localStorage.getItem("userdetails")) || null;
+
+let signin = document.getElementById("signintext");
 
 //hashim.khan48184@gmail.com
 //Hashim124
 
 // setTimeout(()=> {
-//   localStorage.setItem('userdetails' , JSON.stringify('Sign in'))
+//   localStorage.setItem('userdetails', '' )
 //   window.location.reload(true)
-// },3000)
+// },300000)
 
+// let {name} = sinak
 
-console.log(sinak)
-
-let {name} = sinak
-
-console.log(sinak.innerText)
-
-
-
-let signin = document.getElementById('signintext')
-
-let display = document.getElementById('mySignin')
-
-signin.innerText = name
-
-if (signin.innerText == 'Sign In') {
-  
+if (sinak == null) {
+  signin.innerText = "Sign In";
 } else {
-  display.style.display = 'none'
-} 
+  let { name } = sinak;
+  signin.innerText = name;
+}
 
+let { name } = sinak;
+signin.innerText = name;
+console.log(name);
 
+// let signin = document.getElementById('signintext')
+
+let display = document.getElementById("mySignin");
+
+signin.innerText = name;
+
+if (signin.innerText == "Sign In") {
+} else {
+  display.style.display = "none";
+}
 
 //display.style.display = 'none'
-

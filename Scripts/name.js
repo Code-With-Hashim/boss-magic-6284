@@ -1,14 +1,19 @@
-let sinak = JSON.parse(localStorage.getItem("userdetails")) || {};
+let sinak = JSON.parse(localStorage.getItem("userdetails")) || undefined
 
 //hashim.khan48184@gmail.com
 //Hashim124
 
-setTimeout(()=> {
-  localStorage.setItem('userdetails', '' )
-  window.location.reload(true)
-},300000)
+// setTimeout(()=> {
+//   localStorage.setItem('userdetails' , JSON.stringify('Sign in'))
+//   window.location.reload(true)
+// },3000)
+
+
+console.log(sinak)
 
 let {name} = sinak
+
+console.log(sinak.innerText)
 
 
 
@@ -20,12 +25,11 @@ signin.innerText = name
 
 if (signin.innerText == 'Sign In') {
   
-} else if(sinak.innerText == undefined) {
-  signin.innerText = 'Sign In' 
-  
 } else {
   display.style.display = 'none'
-}
+} 
+
+
 
 //display.style.display = 'none'
 

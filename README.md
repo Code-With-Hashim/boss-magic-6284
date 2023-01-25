@@ -1,16 +1,19 @@
-<h1>Nature Basket Clone</h1>
-<hr><p>A best online grocery store with instant delivery service. This was an Individual Project. In these websites I created on Homepage , Login and Signup page. I have created using HTML , CSS and Javascript</p><h2>General Information</h2>
-<hr><ul>
-<li>Simple Basic web Page</li>
-</ul><ul>
-<li>SignUp page</li>
-</ul><h2>Technologies Used</h2>
-<hr><ul>
-<li>HTML</li>
-</ul><ul>
-<li>CSS</li>
-</ul><ul>
-<li>JavaScript</li>
-</ul><h2>Screenshots</h2>
-<hr><p><img src="https://i.ibb.co/b57PCmG/Home-Page.png" alt=""></p><p><img src="https://i.ibb.co/djRJJTX/Data.png" alt=""></p><p><img src="https://i.ibb.co/z6mQRXr/Gift-Page.png" alt=""></p><h2>Contact</h2>
-<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/mohammad-hassim/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/Code-With-Hashim"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
+<h1 align="center" id="title">Travelocity Clone</h1>
+
+<p align="center"><img src="https://socialify.git.ci/Code-With-Hashim/whimsical-machine-475/image?description=1&amp;language=1&amp;name=1&amp;owner=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
+
+<p id="description">An Online Travelling Booking websites that you can book your ticket and more explore about the travel. A collaborative Project was developed in 5 days with a team of 6</p>
+
+<h2>🚀 Demo</h2>
+
+[https://drive.google.com/drive/folders/1oJq3TaIzqhKsuG\_t2feB1Ygy6c-3CjEj?usp=sharing](https://drive.google.com/drive/folders/1oJq3TaIzqhKsuG_t2feB1Ygy6c-3CjEj?usp=sharing)
+
+<h2>Project Screenshots:</h2>
+
+<img src="https://i.ibb.co/LCdGKvt/Home-Page.png" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://i.ibb.co/41zHcSw/Sign-In.png" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://i.ibb.co/353Sg1S/Responsive-Discover-Page.png" alt="project-screenshot" width="400" height="400/">
+
+<img src="https://i.ibb.co/R3DBsd6/Groups-Meeting.png" alt="project-screenshot" width="400" height="400/">
